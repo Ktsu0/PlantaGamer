@@ -58,22 +58,22 @@ body {
 }
 
 .title-xl {
-  font-size: 3rem;
+  font-size: 5vh;
   font-weight: 900;
-  letter-spacing: -2px;
-  line-height: 1.1;
+  letter-spacing: -0.05vw;
+  line-height: 1.35;
   color: #00343c;
 }
 
 .btn-main {
   background: #323b52;
   color: #f0f2ff;
-  padding: 1.25rem 2.5rem;
-  border-radius: 1rem;
+  padding: 2vh 4vw;
+  border-radius: 2vh;
   font-weight: 800;
-  font-size: 1.125rem;
+  font-size: 2vh;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 0 20px 40px rgba(0, 52, 60, 0.15);
+  box-shadow: 0 2vh 4vh rgba(0, 52, 60, 0.15);
 }
 
 .btn-main:hover {
@@ -82,9 +82,9 @@ body {
 }
 
 .progress-bar {
-  height: 12px;
+  height: 1.5vh;
   background: #b6f2ff;
-  border-radius: 9999px;
+  border-radius: 99vh;
   overflow: hidden;
 }
 
@@ -99,4 +99,81 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* ===== Eternal floating CTA button ===== */
+.eternal-floating-btn {
+  position: fixed;
+  bottom: 4vh;
+  right: 3vw;
+  z-index: 1000;
+  background: linear-gradient(135deg, #8b5cf6, #00acc3);
+  color: white;
+  font-weight: 900;
+  font-size: 1.5vh;
+  padding: 2vh 4vw;
+  border-radius: 99vh;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1vh 3vh rgba(139, 92, 246, 0.4);
+  letter-spacing: 0.04em;
+  animation: eternal-pulse 2.5s ease-in-out infinite;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.eternal-floating-btn:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 20px 48px rgba(139, 92, 246, 0.5);
+}
+
+@keyframes eternal-pulse {
+  0%, 100% { box-shadow: 0 10px 30px rgba(139, 92, 246, 0.4); }
+  50%       { box-shadow: 0 10px 50px rgba(139, 92, 246, 0.7); }
+}
+
+/* ===== VIEW TRANSITIONS API ===== */
+
+/* --- Root (background / other content): simple crossfade --- */
+::view-transition-old(root) {
+  animation: vt-fade-out 0.5s ease-in-out both;
+}
+::view-transition-new(root) {
+  animation: vt-fade-in 0.5s ease-in-out both;
+}
+
+/* --- Plant hero GROUP: controls the actual physical slide movement --- */
+/* This is what makes the card glide from Home-center → Quiz-left       */
+::view-transition-group(plant-hero) {
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.2, 0, 0, 1); /* smooth decelerate */
+}
+
+/* --- Old plant card: fades out while sliding --- */
+::view-transition-old(plant-hero) {
+  animation: vt-hero-old 1s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+/* --- New plant panel: fades in while sliding into position --- */
+::view-transition-new(plant-hero) {
+  animation: vt-hero-new 1s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+@keyframes vt-hero-old {
+  from { opacity: 1;  }
+  to   { opacity: 0; }
+}
+
+@keyframes vt-hero-new {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes vt-fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+@keyframes vt-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }

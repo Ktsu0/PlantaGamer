@@ -22,28 +22,29 @@
 .welcome-hero {
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 3vh;
 }
 
 .welcome-badge {
   background-color: rgba(0, 172, 195, 0.1);
   color: #006573;
-  padding: 0.5rem 1.5rem;
+  padding: 1.2vh 2vw;
   border-radius: 9999px;
   font-weight: bold;
   letter-spacing: 0.1em;
-  font-size: 0.875rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  font-size: 1.6vh;
+  box-shadow: 0 0.2vh 0.4vh rgba(0, 0, 0, 0.05);
   display: inline-block;
   margin: 0 auto;
 }
 
 .welcome-text {
   color: #006573;
-  font-size: 1.125rem;
-  max-width: 40rem;
+  font-size: 2.2vh;
+  max-width: 70vw;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
 }
 
 .feature-grid {
@@ -61,7 +62,7 @@
 
 .feature-card {
   padding: 3vh;
-  border-radius: 1.5rem;
+  border-radius: 3vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,25 +72,25 @@
 }
 
 .feature-icon-wrapper {
-  width: 3vh;
-  height: 3vh;
-  border-radius: 0.75rem;
+  width: 3.5vh;
+  height: 3.5vh;
+  border-radius: 1.5vh;
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.2vh 0.4vh rgba(0, 0, 0, 0.05);
 }
 
 .feature-title {
-  font-size: 1.125rem;
+  font-size: 2vh;
   font-weight: bold;
   color: #00343c;
 }
 
 .feature-desc {
   color: rgba(0, 101, 115, 0.7);
-  font-size: 0.75rem;
+  font-size: 1.4vh;
   line-height: 1.5;
   line-clamp: 2;
   display: -webkit-box;
@@ -99,5 +100,5 @@
 }
 
 .welcome-cta {
-  padding-top: 1rem;
+  padding-top: 2vh;
 }

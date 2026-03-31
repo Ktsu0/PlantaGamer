@@ -9,90 +9,84 @@
   justify-content: center;
   gap: 2.5vh;
   overflow: hidden;
-  padding-top: 10vh;
+  padding-top: 5vh;
   position: relative;
 }
 
-/* Level badge */
-.level-badge-closer {
-  z-index: 30;
-}
+.level-badge-closer { z-index: 30; }
 
 .level-badge-mini {
   background-color: #323b52;
   color: #f0f2ff;
-  padding: 0.4rem 1.2rem;
+  padding: 1vh 1.5vw;
   border-radius: 9999px;
-  font-weight: 800;
-  font-size: 0.75rem;
+  font-weight: 900;
+  font-size: 1.5vh;
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  gap: 1vw;
+  box-shadow: 0 1vh 3vh rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.08em;
 }
 
-/* Animated plant card — starts centered, morphs to quiz style */
-.plant-card-animated {
+/* Plant card — styled identically to .quiz-plant-display */
+.plant-card-home {
   position: relative;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(2.5vh);
+  -webkit-backdrop-filter: blur(2.5vh);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 6vh;
+  width: min(30vw, 360px);
+  min-width: 25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2vh;
-  padding: 3vh 2vw;
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.5);
+  gap: 2.5vh;
+  padding: 5vh 3vw;
+  box-shadow: 
+    0 40px 100px -20px rgba(0, 52, 60, 0.08),
+    inset 0 0 20px rgba(255, 255, 255, 0.3);
   overflow: hidden;
-  /* width/height/borderRadius/etc animated by framer-motion */
 }
 
-/* Orb (appears during transition) */
-.plant-card-orb {
+/* Glowing orb background */
+.plant-card-orb-home {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
-  height: 70%;
-  background: radial-gradient(circle, rgba(0,172,195,0.15) 0%, transparent 70%);
+  width: 80%;
+  height: 80%;
+  background: radial-gradient(circle, rgba(0, 172, 195, 0.18) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
-  z-index: 0;
 }
 
-/* Inner content */
-.plant-inner {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2vh;
-  width: 100%;
-}
-
-/* Plant image */
-.plant-img-animated {
-  height: 32vh;
+.plant-img-home {
+  height: 28vh;
   width: auto;
-  filter: drop-shadow(0 20px 40px rgba(0, 52, 60, 0.2));
+  min-height: 20vh;
+  filter: drop-shadow(0 2.5vh 5vh rgba(0, 52, 60, 0.25));
   position: relative;
-  z-index: 10;
+  z-index: 1;
 }
 
-/* Progress bar */
-.progression-animated {
+.progression-home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5vh;
-  width: 80%;
+  gap: 0.8vh;
+  width: 85%;
+  position: relative;
+  z-index: 1;
 }
 
 .progress-bar-mini {
   width: 100%;
-  height: 6px;
-  background-color: rgba(182, 242, 255, 0.4);
+  height: 0.8vh;
+  background-color: rgba(0, 172, 195, 0.1);
   border-radius: 9999px;
   overflow: hidden;
 }
@@ -101,65 +95,71 @@
   height: 100%;
   background: linear-gradient(to right, #00acc3, #00f5d4);
   border-radius: 9999px;
+  box-shadow: 0 0 10px rgba(0, 172, 195, 0.3);
 }
 
 .progression-percent-mini {
-  font-size: 0.7rem;
+  font-size: 1.2vh;
   font-weight: 800;
   color: #006573;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  opacity: 0.6;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
 }
 
-/* Quiz status pill that appears during transition */
-.quiz-plant-status {
-  position: relative;
-  z-index: 10;
+/* Status & Buttons */
+.home-controls {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.8rem;
-  width: 80%;
+  gap: 1.5vh;
 }
 
-.quiz-encouragement {
+.daily-status {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1vw;
+  font-size: 1.6vh;
   color: #006573;
-  opacity: 0.7;
-  font-size: 0.8rem;
   font-weight: 700;
-  text-align: center;
+  opacity: 0.8;
 }
 
-/* Start button */
-.btn-main {
-  padding: 1.2rem 3.5rem;
-  border-radius: 20px;
-  background: #323b52;
-  color: white;
-  font-size: 1rem;
+.daily-limit-reached {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vh;
+  background: rgba(16, 185, 129, 0.06);
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  padding: 1.5vh 3vw;
+  border-radius: 3vh;
+}
+
+.daily-limit-reached span {
+  font-size: 1.6vh;
   font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s;
-  box-shadow: 0 15px 35px rgba(50, 59, 82, 0.25);
+  color: #065f46;
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
 }
 
-.btn-main:hover:not(:disabled) {
-  transform: translateY(-4px);
-  box-shadow: 0 25px 50px rgba(50, 59, 82, 0.35);
+.limit-subtitle {
+  font-size: 1.4vh;
+  font-weight: 600;
+  color: #10b981;
+  margin: 0;
 }
 
-.btn-main:disabled {
-  opacity: 0;
-  pointer-events: none;
+.btn-main.disabled {
+  background: #cbd5e1;
+  color: #64748b;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;
 }
-
-/* Preserved for any legacy references */
-.home-actions-only { display: none; }
-.plant-display-area { display: none; }

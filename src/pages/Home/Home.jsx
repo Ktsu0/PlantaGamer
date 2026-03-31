@@ -1,39 +1,45 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useGame } from '../../context/GameContext';
-import { Zap } from 'lucide-react';
+import { Zap, Clock, CheckCircle2, Lock } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
   const navigate = useNavigate();
-  const { plant, getSpriteUrl } = useGame();
-  // phase: 'idle' | 'moving' | 'fading'
-  const [phase, setPhase] = useState('idle');
+  const { plant, getSpriteUrl, canPlayToday } = useGame();
+  const [leaving, setLeaving] = useState(false);
+  const plantCardRef = useRef(null);
 
   const progressPercent = (plant.level / 50) * 100;
+  const isAvailable = canPlayToday();
 
   const handleStartQuiz = () => {
-    // Step 1: move plant card to quiz position (700ms)
-    setPhase('moving');
-    // Step 2: fade entire screen out (starts at 700ms, lasts 200ms)
-    setTimeout(() => setPhase('fading'), 700);
-    // Step 3: navigate when screen is already black (900ms)
-    setTimeout(() => navigate('/quiz'), 900);
+    if (!isAvailable || !plantCardRef.current) return;
+
+    // FLIP Step 1 — record current position
+    const rect = plantCardRef.current.getBoundingClientRect();
+    sessionStorage.setItem('plantFlipRect', JSON.stringify({
+      top: rect.top,
+      left: rect.left,
+      width: rect.width,
+      height: rect.height,
+    }));
+
+    setLeaving(true);
+    // Transição curta para o Quiz
+    setTimeout(() => navigate('/quiz'), 120);
   };
 
   return (
-    <motion.div
-      className="home-container"
-      animate={{ opacity: phase === 'fading' ? 0 : 1 }}
-      transition={{ duration: 0.2 }}
-    >
+    <div className="home-container">
 
-      {/* Level badge — fades out when plant starts moving */}
+      {/* Level badge */}
       <motion.div
         className="level-badge-closer"
-        animate={phase !== 'idle' ? { opacity: 0, y: -10 } : { opacity: 1, y: 0 }}
-        transition={{ duration: 0.25 }}
+        initial={{ opacity: 0, y: -20 }}
+        animate={leaving ? { opacity: 0, y: -12 } : { opacity: 1, y: 0 }}
+        transition={{ duration: 0.3 }}
       >
         <div className="level-badge-mini">
           <Zap size={12} className="text-[#a1efff]" />
@@ -41,62 +47,77 @@ const Home = () => {
         </div>
       </motion.div>
 
-      {/* Plant card — morphs position and style */}
-      <motion.div
-        className="plant-card-animated"
-        animate={phase !== 'idle' ? {
-          x: 'calc(-50vw + 21vw)',  // moves to left panel center
-          y: '-2vh',
-          width: '30vw',
-          borderRadius: '4rem',
-          background: 'rgba(255,255,255,0.4)',
-          boxShadow: '0 40px 100px -20px rgba(0,52,60,0.1)',
-        } : {
-          x: 0,
-          y: 0,
-          width: '30vw',
-          borderRadius: '3rem',
-          background: 'rgba(255,255,255,0.65)',
-          boxShadow: '0 25px 50px -12px rgba(0,0,0,0.12)',
-        }}
-        transition={{ duration: 0.65, ease: [0.4, 0, 0.2, 1] }}
+      {/* Plant card */}
+      <div
+        ref={plantCardRef}
+        className="plant-card-home"
       >
-        <div className="plant-card-orb" style={{ opacity: phase !== 'idle' ? 1 : 0, transition: 'opacity 0.4s' }} />
+        <div className="plant-card-orb-home" />
 
-        <div className="plant-inner">
-          <motion.img
-            src={getSpriteUrl(plant.level)}
-            alt="Your Plant"
-            className="plant-img-animated"
-            animate={{ y: [0, -8, 0] }}
-            transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
-          />
+        <motion.img
+          key={getSpriteUrl(plant.level)}
+          src={getSpriteUrl(plant.level)}
+          alt="Sua Planta"
+          className="plant-img-home"
+          initial={{ scale: 0.4, opacity: 0, filter: "brightness(2.5) drop-shadow(0 0 40px rgba(0,255,255,1))" }}
+          animate={{ 
+            scale: 1, 
+            opacity: 1, 
+            filter: "brightness(1) drop-shadow(0 0 0px rgba(0,255,255,0))",
+            y: leaving ? 0 : [0, -8, 0] 
+          }}
+          transition={{ 
+            y: { repeat: leaving ? 0 : Infinity, duration: 4, ease: 'easeInOut' },
+            default: { duration: 1.2, type: "spring", bounce: 0.4 } 
+          }}
+        />
 
-          <div className="progression-animated">
-            <div className="progress-bar-mini">
-              <motion.div
-                initial={{ width: 0 }}
-                animate={{ width: `${progressPercent}%` }}
-                className="progress-bar-fill"
-              />
-            </div>
-            <span className="progression-percent-mini">{progressPercent.toFixed(0)}% de evolução</span>
+        <div className="progression-home">
+          <div className="progress-bar-mini">
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: `${progressPercent}%` }}
+              className="progress-bar-fill"
+            />
           </div>
+          <span className="progression-percent-mini">{progressPercent.toFixed(0)}% de evolução</span>
         </div>
-      </motion.div>
+      </div>
 
-      {/* Button — fades out when plant starts moving */}
+      {/* Daily Status & CTA */}
       <motion.div
-        animate={phase !== 'idle' ? { opacity: 0, y: 10 } : { opacity: 1, y: 0 }}
-        transition={{ duration: 0.25 }}
-        style={{ pointerEvents: phase !== 'idle' ? 'none' : 'auto' }}
+        className="home-controls"
+        initial={{ opacity: 0, y: 20 }}
+        animate={leaving ? { opacity: 0, y: 10 } : { opacity: 1, y: 0 }}
+        transition={{ duration: 0.3, delay: 0.1 }}
       >
-        <button onClick={handleStartQuiz} className="btn-main">
-          Começar Quiz
+        {!isAvailable ? (
+          <div className="daily-limit-reached">
+            <CheckCircle2 size={18} className="text-emerald-500" />
+            <span>Meta Diária Concluída</span>
+            <p className="limit-subtitle">Nova rodada disponível em 12h</p>
+          </div>
+        ) : (
+          <div className="daily-status">
+            <Clock size={14} />
+            <span>Rodada disponível (10 questões)</span>
+          </div>
+        )}
+
+        <button 
+          onClick={handleStartQuiz} 
+          className={`btn-main ${!isAvailable ? 'disabled' : ''}`}
+          disabled={!isAvailable || leaving}
+        >
+          {!isAvailable ? (
+            <><Lock size={18} /> Limite Atingido</>
+          ) : (
+            'Começar Rodada'
+          )}
         </button>
       </motion.div>
 
-    </motion.div>
+    </div>
   );
 };
 
