@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { User, Bell, Leaf } from 'lucide-react';
+import { Bell } from 'lucide-react';
+import iconGif from '../../assets/icon.gif';
 import './Header.css';
 
 const Header = () => {
@@ -10,12 +11,13 @@ const Header = () => {
   return (
     <header className="header-container">
       <div className="header-content">
-        <Link to="/" className="header-logo">
-          Planta<span>Gamer</span>
+        <Link to="/" className="header-logo-container">
+          <img src={iconGif} alt="PlantaGamer Icon" className="header-logo-gif" />
         </Link>
         
         <nav className="header-nav">
           <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>Início</Link>
+          <Link to="/home" className={`nav-link ${location.pathname === '/home' ? 'active' : ''}`}>Home</Link>
           <Link to="/profile" className={`nav-link ${location.pathname === '/profile' ? 'active' : ''}`}>Perfil</Link>
         </nav>
 

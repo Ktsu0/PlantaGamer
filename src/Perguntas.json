@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Geografia",
+    "dificuldade": "Fácil",
+    "enunciado": "A expansão da fronteira agrícola no Brasil tem gerado debates sobre desenvolvimento e conservação. O bioma brasileiro que mais tem sofrido com o avanço do agronegócio, especialmente o cultivo da soja e a pecuária, nas últimas décadas é:",
+    "alternativas": [
+      { "texto": "A Mata Atlântica, devido à expansão imobiliária no litoral e turismo.", "correta": false },
+      { "texto": "O Pampa, por conta da introdução de gramíneas exóticas para o pasto.", "correta": false },
+      { "texto": "O Cerrado, que apresenta relevo plano favorável à mecanização agrícola e sofre intenso desmatamento.", "correta": true },
+      { "texto": "A Caatinga, impactada pelo plantio em larga escala de cana-de-açúcar para biocombustíveis.", "correta": false }
+    ]
+  },
+  {
+    "id": 2,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Fácil",
+    "enunciado": "A chuva ácida é um fenômeno atmosférico causado pela poluição que altera o pH da água da chuva. Os principais gases responsáveis por intensificar a acidez da chuva são os óxidos de:",
+    "alternativas": [
+      { "texto": "Carbono e Cloro.", "correta": false },
+      { "texto": "Enxofre e Nitrogênio.", "correta": true },
+      { "texto": "Sódio e Potássio.", "correta": false },
+      { "texto": "Ferro e Magnésio.", "correta": false }
+    ]
+  },
+  {
+    "id": 3,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Física",
+    "dificuldade": "Fácil",
+    "enunciado": "Ao frear bruscamente um automóvel, os passageiros tendem a continuar em movimento para frente, motivo pelo qual o uso do cinto de segurança é obrigatório. Esse fenômeno físico é explicado pela:",
+    "alternativas": [
+      { "texto": "Primeira Lei de Newton (Inércia).", "correta": true },
+      { "texto": "Segunda Lei de Newton (Princípio Fundamental da Dinâmica).", "correta": false },
+      { "texto": "Terceira Lei de Newton (Ação e Reação).", "correta": false },
+      { "texto": "Lei da Gravitação Universal.", "correta": false }
+    ]
+  },
+  {
+    "id": 4,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Fácil",
+    "enunciado": "A respiração celular é um processo vital para a produção de energia nas células eucarióticas. A organela responsável por produzir a maior parte de ATP (trifosfato de adenosina) durante esse processo é:",
+    "alternativas": [
+      { "texto": "O Complexo de Golgi.", "correta": false },
+      { "texto": "O Ribossomo.", "correta": false },
+      { "texto": "A Mitocôndria.", "correta": true },
+      { "texto": "O Cloroplasto.", "correta": false }
+    ]
+  },
+  {
+    "id": 5,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Fácil",
+    "enunciado": "Um lojista comprou um produto por R$ 200,00 e deseja revendê-lo com um lucro de 25% sobre o preço de custo. Por quanto ele deverá vender o produto?",
+    "alternativas": [
+      { "texto": "R$ 220,00", "correta": false },
+      { "texto": "R$ 225,00", "correta": false },
+      { "texto": "R$ 250,00", "correta": true },
+      { "texto": "R$ 275,00", "correta": false }
+    ]
+  },
+  {
+    "id": 6,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Educação Física",
+    "dificuldade": "Fácil",
+    "enunciado": "Os esportes de marca são aqueles em que o resultado do atleta ou da equipe é comparado a um padrão de medida (tempo, distância ou peso). É um exemplo de esporte de marca:",
+    "alternativas": [
+      { "texto": "O voleibol.", "correta": false },
+      { "texto": "O judô.", "correta": false },
+      { "texto": "O atletismo.", "correta": true },
+      { "texto": "A ginástica rítmica.", "correta": false }
+    ]
+  },
+  {
+    "id": 7,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Fácil",
+    "enunciado": "A Revolução Industrial, iniciada na Inglaterra no século XVIII, alterou profundamente as relações de trabalho e a estrutura da sociedade. Uma das principais consequências sociais desse processo no seu período inicial foi:",
+    "alternativas": [
+      { "texto": "A criação de leis trabalhistas rígidas que garantiam o bem-estar imediato da nova classe operária.", "correta": false },
+      { "texto": "O intenso êxodo rural, com a formação de grandes aglomerados urbanos marcados por condições precárias de moradia e saúde.", "correta": true },
+      { "texto": "A distribuição igualitária dos lucros gerados pelas indústrias entre os proprietários e os trabalhadores.", "correta": false },
+      { "texto": "O fim do trabalho infantil, substituído exclusivamente pela mão de obra feminina especializada.", "correta": false }
+    ]
+  },
+  {
+    "id": 8,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Fácil",
+    "enunciado": "No contexto da Guerra Fria, a Doutrina Truman e o Plano Marshall foram políticas adotadas pelos Estados Unidos com o objetivo de:",
+    "alternativas": [
+      { "texto": "Conter o avanço da influência soviética e do comunismo na Europa através de ajuda militar e reconstrução econômica.", "correta": true },
+      { "texto": "Apoiar movimentos de descolonização na África e na Ásia, garantindo alianças com países recém-independentes.", "correta": false },
+      { "texto": "Estabelecer uma aliança espacial com a União Soviética para explorar a Lua e Marte de forma conjunta.", "correta": false },
+      { "texto": "Promover o desarmamento nuclear global e encerrar as hostilidades ideológicas entre os blocos.", "correta": false }
+    ]
+  },
+  {
+    "id": 9,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Fácil",
+    "enunciado": "O ecossistema é o conjunto formado pelos seres vivos (fatores bióticos) e o ambiente físico (fatores abióticos) em que vivem. Na base da cadeia alimentar de um ecossistema terrestre equilibrado, encontramos os organismos:",
+    "alternativas": [
+      { "texto": "Decompositores, que reciclam matéria orgânica.", "correta": false },
+      { "texto": "Consumidores primários, que se alimentam de herbívoros.", "correta": false },
+      { "texto": "Produtores, representados principalmente por plantas e algas que realizam fotossíntese.", "correta": true },
+      { "texto": "Consumidores terciários, como os grandes predadores do topo de cadeia.", "correta": false }
+    ]
+  },
+  {
+    "id": 10,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Fácil",
+    "enunciado": "Numa progressão aritmética (P.A.), o primeiro termo é 5 e a razão é 3. Qual será o valor do 10º termo dessa sequência?",
+    "alternativas": [
+      { "texto": "27", "correta": false },
+      { "texto": "30", "correta": false },
+      { "texto": "32", "correta": true },
+      { "texto": "35", "correta": false }
+    ]
+  },
+  {
+    "id": 11,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Língua Portuguesa",
+    "dificuldade": "Fácil",
+    "enunciado": "As figuras de linguagem são recursos utilizados para dar mais expressividade ao texto. Na frase 'O vento beijava seus cabelos suavemente', a figura de linguagem predominante é:",
+    "alternativas": [
+      { "texto": "Metáfora.", "correta": false },
+      { "texto": "Metonímia.", "correta": false },
+      { "texto": "Personificação (ou Prosopopeia).", "correta": true },
+      { "texto": "Hipérbole.", "correta": false }
+    ]
+  },
+  {
+    "id": 12,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Artes",
+    "dificuldade": "Fácil",
+    "enunciado": "A arte rupestre abrange as representações artísticas deixadas por seres humanos pré-históricos em cavernas e abrigos rochosos. Essas pinturas tinham, provavelmente, caráter:",
+    "alternativas": [
+      { "texto": "Mágico-religioso, buscando o sucesso nas caçadas e a proteção.", "correta": true },
+      { "texto": "Puramente decorativo, para embelezar o interior das moradias.", "correta": false },
+      { "texto": "Comercial, servindo como catálogo para troca de animais entre tribos.", "correta": false },
+      { "texto": "Científico, com o objetivo de catalogar detalhadamente a anatomia das espécies.", "correta": false }
+    ]
+  },
+  {
+    "id": 13,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Educação Física",
+    "dificuldade": "Fácil",
+    "enunciado": "A dança é uma manifestação corporal que reflete a cultura de um povo. O Frevo, reconhecido como Patrimônio Imaterial da Humanidade, é uma dança típica do Carnaval de qual estado brasileiro?",
+    "alternativas": [
+      { "texto": "Bahia.", "correta": false },
+      { "texto": "Rio de Janeiro.", "correta": false },
+      { "texto": "Pernambuco.", "correta": true },
+      { "texto": "Maranhão.", "correta": false }
+    ]
+  },
+  {
+    "id": 14,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Fácil",
+    "enunciado": "O sistema feudal, predominante na Europa Ocidental durante a Idade Média, baseava-se em relações de suserania e vassalagem. A principal obrigação do vassalo para com o seu suserano era:",
+    "alternativas": [
+      { "texto": "O pagamento de impostos em moeda de ouro, garantindo o enriquecimento do tesouro real.", "correta": false },
+      { "texto": "A prestação de auxílio militar (serviço armado) e conselho em épocas de guerra e paz.", "correta": true },
+      { "texto": "A conversão forçada dos camponeses da região para o Cristianismo ortodoxo.", "correta": false },
+      { "texto": "O fornecimento exclusivo de especiarias importadas do Oriente Médio.", "correta": false }
+    ]
+  },
+  {
+    "id": 15,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Geografia",
+    "dificuldade": "Fácil",
+    "enunciado": "O clima semiárido no Nordeste brasileiro influencia diretamente a formação de um bioma caracterizado por plantas xerófitas, adaptadas à escassez de água, com folhas transformadas em espinhos e raízes profundas. Esse bioma é conhecido como:",
+    "alternativas": [
+      { "texto": "Pantanal.", "correta": false },
+      { "texto": "Cerrado.", "correta": false },
+      { "texto": "Caatinga.", "correta": true },
+      { "texto": "Amazônia.", "correta": false }
+    ]
+  },
+  {
+    "id": 16,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Sociologia",
+    "dificuldade": "Fácil",
+    "enunciado": "Quando julgamos a cultura, os costumes ou os comportamentos de outros povos a partir dos padrões da nossa própria cultura, considerando-a superior às demais, estamos adotando uma postura conhecida na Sociologia e na Antropologia como:",
+    "alternativas": [
+      { "texto": "Relativismo cultural.", "correta": false },
+      { "texto": "Etnocentrismo.", "correta": true },
+      { "texto": "Aculturação.", "correta": false },
+      { "texto": "Assimilação social.", "correta": false }
+    ]
+  },
+  {
+    "id": 17,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Fácil",
+    "enunciado": "Durante o Segundo Reinado no Brasil (1840-1889), a economia foi fortemente impulsionada pela exportação de um produto agrícola que se tornou o pilar financeiro do Império, utilizando massivamente a mão de obra escravizada. Esse produto era:",
+    "alternativas": [
+      { "texto": "A cana-de-açúcar.", "correta": false },
+      { "texto": "A borracha.", "correta": false },
+      { "texto": "O café.", "correta": true },
+      { "texto": "O algodão.", "correta": false }
+    ]
+  },
+  {
+    "id": 18,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Fácil",
+    "enunciado": "O despejo de esgoto doméstico não tratado em lagos e represas causa o aumento de nutrientes na água, como nitrogênio e fósforo. Esse fenômeno leva à proliferação excessiva de algas, redução da penetração de luz e consequente diminuição do oxigênio dissolvido, causando a mortandade de peixes. Esse processo é conhecido como:",
+    "alternativas": [
+      { "texto": "Biomagnificação.", "correta": false },
+      { "texto": "Assoreamento.", "correta": false },
+      { "texto": "Eutrofização.", "correta": true },
+      { "texto": "Salinização.", "correta": false }
+    ]
+  },
+  {
+    "id": 19,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Fácil",
+    "enunciado": "A massa molar da molécula de água (H2O) é de aproximadamente 18 g/mol. Se um recipiente contém 90 gramas de água pura, qual é o número correspondente de mols de moléculas de água presentes nesse recipiente?",
+    "alternativas": [
+      { "texto": "2 mols.", "correta": false },
+      { "texto": "4 mols.", "correta": false },
+      { "texto": "5 mols.", "correta": true },
+      { "texto": "10 mols.", "correta": false }
+    ]
+  },
+  {
+    "id": 20,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Fácil",
+    "enunciado": "As notas bimestrais de um aluno em Matemática foram: 6,0; 7,5; 5,5 e 9,0. A média aritmética simples das notas obtidas por esse aluno durante o ano letivo é:",
+    "alternativas": [
+      { "texto": "6,5.", "correta": false },
+      { "texto": "7,0.", "correta": true },
+      { "texto": "7,5.", "correta": false },
+      { "texto": "8,0.", "correta": false }
+    ]
+  },
+  {
+    "id": 21,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Fácil",
+    "enunciado": "Um prédio projeta uma sombra de 15 metros no chão quando os raios solares formam um ângulo de 45 graus com a superfície terrestre. Qual é a altura desse prédio? (Considere tangente de 45 graus = 1)",
+    "alternativas": [
+      { "texto": "10 metros.", "correta": false },
+      { "texto": "15 metros.", "correta": true },
+      { "texto": "30 metros.", "correta": false },
+      { "texto": "45 metros.", "correta": false }
+    ]
+  },
+  {
+    "id": 22,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Língua Portuguesa",
+    "dificuldade": "Fácil",
+    "enunciado": "A variação linguística é um fenômeno natural nas línguas. Quando uma pessoa ajusta o seu modo de falar (usando mais gírias ou jargões profissionais, por exemplo) dependendo do ambiente e das pessoas com quem está conversando, ocorre uma variação do tipo:",
+    "alternativas": [
+      { "texto": "Diacrônica (histórica).", "correta": false },
+      { "texto": "Diatópica (regional).", "correta": false },
+      { "texto": "Diastrática (social).", "correta": false },
+      { "texto": "Diafásica (situacional).", "correta": true }
+    ]
+  },
+  {
+    "id": 23,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Educação Física",
+    "dificuldade": "Fácil",
+    "enunciado": "O sedentarismo é considerado pela Organização Mundial da Saúde (OMS) como um dos principais fatores de risco para a mortalidade global. A prática regular de exercícios físicos aeróbicos (como corrida, natação e ciclismo) contribui diretamente para:",
+    "alternativas": [
+      { "texto": "A diminuição da capacidade cardiorrespiratória devido ao desgaste acelerado dos pulmões.", "correta": false },
+      { "texto": "O aumento progressivo do acúmulo de colesterol LDL ('ruim') nas paredes das artérias.", "correta": false },
+      { "texto": "A melhora na circulação sanguínea, controle da pressão arterial e fortalecimento do músculo cardíaco.", "correta": true },
+      { "texto": "A perda acelerada de densidade óssea, facilitando o desenvolvimento precoce de osteoporose.", "correta": false }
+    ]
+  },
+  {
+    "id": 24,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Fácil",
+    "enunciado": "A Revolução Francesa (1789) é um marco histórico que determinou o fim da Idade Moderna e o início da Idade Contemporânea. Um dos documentos mais importantes gerados nesse contexto foi a Declaração dos Direitos do Homem e do Cidadão, que defendia principalmente:",
+    "alternativas": [
+      { "texto": "A manutenção dos privilégios do clero e da nobreza, desde que pagassem mais impostos.", "correta": false },
+      { "texto": "Os princípios iluministas de liberdade, igualdade perante a lei e o direito à propriedade privada.", "correta": true },
+      { "texto": "A instauração imediata de uma ditadura militar para proteger a França das invasões externas.", "correta": false },
+      { "texto": "O estabelecimento do sufrágio universal, estendendo o direito de voto às mulheres e aos escravizados das colônias.", "correta": false }
+    ]
+  },
+  {
+    "id": 25,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Geografia",
+    "dificuldade": "Fácil",
+    "enunciado": "A partir da década de 1950, o Brasil passou por um intenso processo de urbanização. O principal fator demográfico responsável pelo rápido crescimento das cidades brasileiras nesse período foi:",
+    "alternativas": [
+      { "texto": "O intenso fluxo imigratório de refugiados europeus no período pós-Segunda Guerra Mundial.", "correta": false },
+      { "texto": "O aumento expressivo da taxa de fecundidade exclusivamente nas áreas urbanas centrais.", "correta": false },
+      { "texto": "O êxodo rural, impulsionado pela industrialização urbana e pela concentração de terras no campo.", "correta": true },
+      { "texto": "A criação de cidades planejadas no interior, como Brasília, que esvaziaram as capitais litorâneas.", "correta": false }
+    ]
+  },
+  {
+    "id": 26,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Fácil",
+    "enunciado": "Durante a Ditadura Civil-Militar no Brasil (1964-1985), o governo do General Costa e Silva decretou, em 1968, o Ato Institucional nº 5 (AI-5). Este decreto representou:",
+    "alternativas": [
+      { "texto": "A abertura democrática gradual, permitindo o retorno dos exilados políticos ao país.", "correta": false },
+      { "texto": "A criação do pluripartidarismo, encerrando o bipartidarismo mantido pela ARENA e pelo MDB.", "correta": false },
+      { "texto": "O recrudescimento do regime, concedendo poderes absolutos ao presidente, como o fechamento do Congresso e a suspensão do habeas corpus.", "correta": true },
+      { "texto": "A garantia de estabilidade no emprego para os professores universitários e o fim da censura à imprensa escrita.", "correta": false }
+    ]
+  },
+  {
+    "id": 27,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Física",
+    "dificuldade": "Fácil",
+    "enunciado": "De acordo com a Primeira Lei de Ohm, a corrente elétrica que atravessa um resistor ôhmico é diretamente proporcional à diferença de potencial (tensão) aplicada aos seus terminais. Se um resistor de 4 Ω é submetido a uma tensão de 12 V, qual será a intensidade da corrente elétrica?",
+    "alternativas": [
+      { "texto": "3 A.", "correta": true },
+      { "texto": "8 A.", "correta": false },
+      { "texto": "16 A.", "correta": false },
+      { "texto": "48 A.", "correta": false }
+    ]
+  },
+  {
+    "id": 28,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Fácil",
+    "enunciado": "O número de acessos a um site de notícias durante 5 dias úteis de uma semana foi: 120, 150, 110, 200 e 130. Qual é a mediana do número de acessos durante esse período?",
+    "alternativas": [
+      { "texto": "110", "correta": false },
+      { "texto": "120", "correta": false },
+      { "texto": "130", "correta": true },
+      { "texto": "142", "correta": false }
+    ]
+  },
+  {
+    "id": 29,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Artes",
+    "dificuldade": "Fácil",
+    "enunciado": "A Arte Contemporânea rompeu com suportes tradicionais como a tela e o mármore. Uma 'Instalação' artística é caracterizada por:",
+    "alternativas": [
+      { "texto": "Ser uma pintura feita exclusivamente com técnicas digitais em telas de altíssima resolução.", "correta": false },
+      { "texto": "Apropriar-se de um espaço físico específico, criando um ambiente imersivo que, muitas vezes, permite a interação do público.", "correta": true },
+      { "texto": "Ser um tipo de escultura em bronze fixada permanentemente em praças públicas e monumentos.", "correta": false },
+      { "texto": "Consistir na recitação de poemas clássicos acompanhados por música erudita ao vivo em teatros fechados.", "correta": false }
+    ]
+  },
+  {
+    "id": 30,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Espanhol",
+    "dificuldade": "Fácil",
+    "enunciado": "Os 'falsos amigos' (heterosemânticos) são palavras em espanhol que se parecem muito com o português, mas têm um significado completamente diferente. A frase 'María está embarazada' significa que Maria está:",
+    "alternativas": [
+      { "texto": "Envergonhada.", "correta": false },
+      { "texto": "Grávida.", "correta": true },
+      { "texto": "Confusa.", "correta": false },
+      { "texto": "Atrasada.", "correta": false }
+    ]
+  },
+  {
+    "id": 31,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Educação Física",
+    "dificuldade": "Fácil",
+    "enunciado": "A Educação Física escolar aborda a temática das lutas diferenciando-as das 'brigas'. Do ponto de vista conceitual e pedagógico, a principal diferença entre ambas é que:",
+    "alternativas": [
+      { "texto": "As lutas ocorrem de forma espontânea e desorganizada, enquanto as brigas possuem árbitros e confederações.", "correta": false },
+      { "texto": "As lutas utilizam armas de fogo, enquanto as brigas são disputas estritamente corporais.", "correta": false },
+      { "texto": "As lutas são institucionalizadas, possuem regras claras, respeito ao adversário e técnicas específicas, diferentemente das brigas, que são movidas pela violência desregrada e desrespeito.", "correta": true },
+      { "texto": "As lutas não possuem vencedores ou perdedores, ao passo que as brigas têm como objetivo único o ganho financeiro através de apostas.", "correta": false }
+    ]
+  },
+  {
+    "id": 32,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Fácil",
+    "enunciado": "O conceito de 'Tempo de Meia-Vida' (período de semidesintegração) é fundamental no estudo da radioatividade. Ele representa o tempo necessário para que:",
+    "alternativas": [
+      { "texto": "A temperatura do isótopo radioativo caia pela metade após ser retirado de assim como um reator nuclear.", "correta": false },
+      { "texto": "A metade da massa original ou do número de átomos de uma amostra radioativa se desintegre.", "correta": true },
+      { "texto": "A partícula alfa dobre a sua velocidade de emissão no vácuo espacial.", "correta": false },
+      { "texto": "O material radioativo deixe de emitir qualquer tipo de radiação, tornando-se completamente estável e seguro.", "correta": false }
+    ]
+  },
+  {
+    "id": 33,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Física",
+    "dificuldade": "Fácil",
+    "enunciado": "Na calorimetria, distingue-se calor sensível de calor latente. O calor latente é a quantidade de energia térmica que uma substância troca durante um processo no qual:",
+    "alternativas": [
+      { "texto": "Ocorre variação de temperatura sem mudança de estado físico.", "correta": false },
+      { "texto": "Ocorre dilatação térmica de sólidos metálicos.", "correta": false },
+      { "texto": "Ocorre mudança de estado físico, mantendo a temperatura constante durante a transição.", "correta": true },
+      { "texto": "A energia mecânica é transformada inteiramente em energia térmica por atrito cinético.", "correta": false }
+    ]
+  },
+  {
+    "id": 34,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Fácil",
+    "enunciado": "O efeito estufa é um fenômeno natural essencial para a vida na Terra, pois mantém o planeta aquecido. No entanto, sua intensificação antrópica tem causado o aquecimento global. O principal gás de efeito estufa emitido pelas atividades humanas, especialmente a queima de combustíveis fósseis e o desmatamento, é o:",
+    "alternativas": [
+      { "texto": "Gás Oxigênio (O2).", "correta": false },
+      { "texto": "Gás Carbônico (Dióxido de Carbono - CO2).", "correta": true },
+      { "texto": "Gás Nitrogênio (N2).", "correta": false },
+      { "texto": "Gás Hélio (He).", "correta": false }
+    ]
+  },
+  {
+    "id": 35,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Fácil",
+    "enunciado": "Um investidor aplicou R$ 1.000,00 a uma taxa de juros compostos de 10% ao mês. Após dois meses, o montante gerado por essa aplicação será de:",
+    "alternativas": [
+      { "texto": "R$ 1.200,00", "correta": false },
+      { "texto": "R$ 1.210,00", "correta": true },
+      { "texto": "R$ 1.100,00", "correta": false },
+      { "texto": "R$ 1.250,00", "correta": false }
+    ]
+  },
+  {
+    "id": 36,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Fácil",
+    "enunciado": "Qual é o logaritmo de 100 na base 10 (log10 100)?",
+    "alternativas": [
+      { "texto": "1", "correta": false },
+      { "texto": "2", "correta": true },
+      { "texto": "10", "correta": false },
+      { "texto": "100", "correta": false }
+    ]
+  },
+  {
+    "id": 37,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Língua Portuguesa",
+    "dificuldade": "Fácil",
+    "enunciado": "A coesão textual é responsável por ligar as partes de um texto, dando-lhe fluidez. Na frase 'O professor chegou atrasado. Portanto, a prova foi adiada', a conjunção 'Portanto' exerce a função de estabelecer uma relação de:",
+    "alternativas": [
+      { "texto": "Oposição (adversativa).", "correta": false },
+      { "texto": "Adição (aditiva).", "correta": false },
+      { "texto": "Conclusão (conclusiva).", "correta": true },
+      { "texto": "Alternância (alternativa).", "correta": false }
+    ]
+  },
+  {
+    "id": 38,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Artes",
+    "dificuldade": "Fácil",
+    "enunciado": "O Renascimento, movimento cultural ocorrido na Europa entre os séculos XIV e XVI, foi profundamente marcado pelo Antropocentrismo. Nas artes plásticas, essa visão de mundo refletiu-se através:",
+    "alternativas": [
+      { "texto": "Do abandono das noções de proporção e simetria para focar exclusivamente na exaltação de seres divinos amorfos.", "correta": false },
+      { "texto": "Do uso da perspectiva linear, do estudo rigoroso da anatomia humana e da valorização da razão e da observação da natureza.", "correta": true },
+      { "texto": "Da proibição pela Igreja da pintura de retratos de figuras históricas laicas e mecenas.", "correta": false },
+      { "texto": "Da restrição do uso de cores, limitando-se aos tons de cinza para representar a tristeza da peste negra.", "correta": false }
+    ]
+  },
+  {
+    "id": 39,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Educação Física",
+    "dificuldade": "Fácil",
+    "enunciado": "O esporte de alto rendimento foca na performance máxima e na quebra de recordes. Em contrapartida, o chamado 'Esporte de Participação' (ou lazer) tem como objetivo primordial:",
+    "alternativas": [
+      { "texto": "A exclusão social de indivíduos que não possuem habilidades atléticas natas.", "correta": false },
+      { "texto": "A profissionalização precoce de crianças visando lucro de clubes internacionais.", "correta": false },
+      { "texto": "A integração social, o bem-estar, a diversão e a promoção da saúde de forma lúdica, sem a pressão do resultado profissional.", "correta": true },
+      { "texto": "O uso irrestrito de substâncias ergogênicas (doping) para alcançar resultados rápidos em competições de bairro.", "correta": false }
+    ]
+  },
+  {
+    "id": 40,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Inglês",
+    "dificuldade": "Fácil",
+    "enunciado": "A interpretação de expressões idiomáticas é comum nas provas de língua estrangeira. A expressão em inglês 'It's raining cats and dogs' significa que:",
+    "alternativas": [
+      { "texto": "Está chovendo muito forte (uma tempestade).", "correta": true },
+      { "texto": "Gatos e cães estão fugindo das ruas.", "correta": false },
+      { "texto": "O céu está com nuvens em formato de animais.", "correta": false },
+      { "texto": "Há uma chuva fina acompanhada de muito vento.", "correta": false }
+    ]
+  },
+  {
+    "id": 41,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Língua Portuguesa",
+    "dificuldade": "Fácil",
+    "enunciado": "Os textos pertencem a diferentes tipologias de acordo com o seu objetivo comunicativo. Uma receita culinária, um manual de instruções e uma bula de remédio são exemplos clássicos de textos:",
+    "alternativas": [
+      { "texto": "Narrativos, pois contam uma história com personagens e um clímax.", "correta": false },
+      { "texto": "Injutivos (ou instrucionais), pois utilizam verbos no imperativo para orientar o leitor a realizar uma ação.", "correta": true },
+      { "texto": "Dissertativo-argumentativos, pois defendem um ponto de vista com argumentos lógicos e dados estatísticos.", "correta": false },
+      { "texto": "Descritivos puros, pois apenas pintam um quadro visual do objeto sem sugerir ação.", "correta": false }
+    ]
+  },
+  {
+    "id": 42,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Média",
+    "enunciado": "Durante a Era Vargas (1930-1945), o Brasil passou por profundas transformações políticas e sociais. Uma das características marcantes do Estado Novo (1937-1945), período ditatorial de Getúlio Vargas, foi:",
+    "alternativas": [
+      { "texto": "A descentralização do poder político, conferindo maior autonomia administrativa aos estados da federação.", "correta": false },
+      { "texto": "A criação da Consolidação das Leis do Trabalho (CLT), que garantiu direitos aos trabalhadores sob forte controle sindical do Estado.", "correta": true },
+      { "texto": "A adoção do liberalismo econômico clássico, caracterizado pela mínima intervenção do Estado na economia e privatizações.", "correta": false },
+      { "texto": "O alinhamento imediato e irrestrito do Brasil ao bloco socialista internacional logo no início da Segunda Guerra Mundial.", "correta": false }
+    ]
+  },
+  {
+    "id": 43,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Filosofia",
+    "dificuldade": "Média",
+    "enunciado": "Para Sócrates, o método para alcançar a verdade consistia na ironia e na maiêutica. O objetivo principal da maiêutica socrática é:",
+    "alternativas": [
+      { "texto": "Dar à luz novas ideias, fazendo com que o interlocutor descubra o conhecimento que já reside em si mesmo.", "correta": true },
+      { "texto": "Convencer o oponente através de falácias lógicas, técnica comum entre os sofistas.", "correta": false },
+      { "texto": "Transmitir verdades absolutas recebidas diretamente dos deuses através da revelação mística.", "correta": false },
+      { "texto": "Refutar qualquer possibilidade de conhecimento, adotando uma postura cética radical.", "correta": false }
+    ]
+  },
+  {
+    "id": 44,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "A probabilidade de um atirador acertar um alvo em um único tiro é de 80%. Se ele der dois tiros independentes, qual a probabilidade de ele acertar o alvo em ambos os tiros?",
+    "alternativas": [
+      { "texto": "16%", "correta": false },
+      { "texto": "64%", "correta": true },
+      { "texto": "80%", "correta": false },
+      { "texto": "160%", "correta": false }
+    ]
+  },
+  {
+    "id": 45,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Um terreno tem a forma de um triângulo retângulo com catetos medindo 30 metros e 40 metros. O proprietário deseja cercar o terreno com arame. A quantidade mínima de arame necessária para dar uma volta completa no perímetro do terreno é:",
+    "alternativas": [
+      { "texto": "70 metros", "correta": false },
+      { "texto": "100 metros", "correta": false },
+      { "texto": "120 metros", "correta": true },
+      { "texto": "150 metros", "correta": false }
+    ]
+  },
+  {
+    "id": 46,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Em uma pesquisa de opinião, 400 pessoas responderam qual a sua rede social favorita. Verificou-se que 120 pessoas escolheram a rede A. Em um gráfico de setores (pizza) representando essa pesquisa, qual seria a medida do ângulo central correspondente ao setor da rede A?",
+    "alternativas": [
+      { "texto": "30 graus", "correta": false },
+      { "texto": "108 graus", "correta": true },
+      { "texto": "120 graus", "correta": false },
+      { "texto": "144 graus", "correta": false }
+    ]
+  },
+  {
+    "id": 47,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Literatura",
+    "dificuldade": "Média",
+    "enunciado": "A Semana de Arte Moderna de 1922 foi um marco na cultura brasileira. Qual das características abaixo define o movimento modernista que sucedeu esse evento?",
+    "alternativas": [
+      { "texto": "A busca pela métrica perfeita e o uso de vocabulário erudito, espelhando-se nos clássicos greco-romanos.", "correta": false },
+      { "texto": "O rompimento com os padrões acadêmicos tradicionais, valorização da linguagem coloquial e busca de uma identidade nacional autêntica.", "correta": true },
+      { "texto": "O foco exclusivo na religiosidade e na culpa humana frente aos pecados carnais, inspirados no Barroco.", "correta": false },
+      { "texto": "A fuga da realidade através de mundos de fantasia e idealização platônica da mulher amada.", "correta": false }
+    ]
+  },
+  {
+    "id": 48,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Artes",
+    "dificuldade": "Média",
+    "enunciado": "As vanguardas europeias influenciaram fortemente as artes plásticas no Brasil no início do século XX. O Cubismo, representado por artistas como Pablo Picasso, tem como principal característica:",
+    "alternativas": [
+      { "texto": "A geometrização das formas e a representação de múltiplos ângulos simultâneos de um mesmo objeto.", "correta": true },
+      { "texto": "A pintura de paisagens ao ar livre com ênfase na captação da luz natural e pinceladas soltas.", "correta": false },
+      { "texto": "A representação fotográfica e hiper-realista da miséria urbana e dos operários das fábricas.", "correta": false },
+      { "texto": "O uso de imagens do inconsciente, dos sonhos e a fusão de elementos desconexos.", "correta": false }
+    ]
+  },
+  {
+    "id": 49,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Geografia",
+    "dificuldade": "Média",
+    "enunciado": "A globalização econômica é caracterizada pela intensa integração de mercados, capitais e cadeias produtivas. Nesse contexto, as empresas transnacionais adotam a fragmentação da produção, que consiste em:",
+    "alternativas": [
+      { "texto": "Concentrar todas as etapas da produção em um único país desenvolvido para reduzir custos logísticos.", "correta": false },
+      { "texto": "Distribuir as etapas de fabricação de um produto por diversos países, buscando vantagens como mão de obra barata e incentivos fiscais.", "correta": true },
+      { "texto": "Estatalizar filiais em países periféricos para garantir o repasse integral de tecnologias avançadas.", "correta": false },
+      { "texto": "Restringir as vendas de seus produtos apenas aos países onde possuem sedes administrativas.", "correta": false }
+    ]
+  },
+  {
+    "id": 50,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Sociologia",
+    "dificuldade": "Média",
+    "enunciado": "Karl Marx analisou o sistema capitalista e desenvolveu o conceito de 'Mais-Valia'. Segundo a teoria marxista, a mais-valia corresponde:",
+    "alternativas": [
+      { "texto": "Ao valor pago pelo Estado aos trabalhadores desempregados em épocas de crise econômica.", "correta": false },
+      { "texto": "Ao imposto cobrado pelos governos sobre o lucro bruto das grandes corporações industriais.", "correta": false },
+      { "texto": "À diferença entre o valor gerado pelo trabalho do operário e o salário que lhe é efetivamente pago, apropriada pelo capitalista.", "correta": true },
+      { "texto": "Ao aumento do valor das mercadorias gerado pela lei de oferta e procura no livre mercado.", "correta": false }
+    ]
+  },
+  {
+    "id": 51,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Média",
+    "enunciado": "A Teoria da Evolução por seleção natural, proposta por Charles Darwin, estabelece que os organismos mais adaptados ao ambiente têm maiores chances de sobrevivência e reprodução. Uma premissa fundamental para que a seleção natural ocorra é:",
+    "alternativas": [
+      { "texto": "A existência de variabilidade genética entre os indivíduos de uma mesma população.", "correta": true },
+      { "texto": "A capacidade dos organismos de alterar seu próprio DNA para se adequar a mudanças bruscas no clima.", "correta": false },
+      { "texto": "A transmissão de características adquiridas pelo uso ou desuso de órgãos durante a vida para a prole.", "correta": false },
+      { "texto": "A ocorrência constante de mutações direcionadas que antecipam as necessidades futuras da espécie.", "correta": false }
+    ]
+  },
+  {
+    "id": 52,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Média",
+    "enunciado": "Os plásticos, amplamente utilizados na sociedade moderna, são polímeros sintéticos, cujas macromoléculas são formadas pela repetição de unidades menores chamadas monômeros. O processo químico de união desses monômeros é denominado:",
+    "alternativas": [
+      { "texto": "Destilação fracionada.", "correta": false },
+      { "texto": "Eletrólise ígnea.", "correta": false },
+      { "texto": "Polimerização.", "correta": true },
+      { "texto": "Craqueamento térmico.", "correta": false }
+    ]
+  },
+  {
+    "id": 53,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Média",
+    "enunciado": "A tabela periódica organiza os elementos químicos de acordo com suas propriedades. Os elementos localizados no Grupo 1 (ou 1A), com exceção do hidrogênio, são conhecidos por serem altamente reativos com a água. Esses elementos são chamados de:",
+    "alternativas": [
+      { "texto": "Gases Nobres.", "correta": false },
+      { "texto": "Halogênios.", "correta": false },
+      { "texto": "Metais Alcalinos.", "correta": true },
+      { "texto": "Metais de Transição.", "correta": false }
+    ]
+  },
+  {
+    "id": 54,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "A função f(x) = 2x - 4 representa uma reta no plano cartesiano. O ponto onde essa reta intercepta o eixo x (raiz da função) e o ponto onde intercepta o eixo y são, respectivamente:",
+    "alternativas": [
+      { "texto": "(2, 0) e (0, -4)", "correta": true },
+      { "texto": "(-4, 0) e (0, 2)", "correta": false },
+      { "texto": "(0, 2) e (-4, 0)", "correta": false },
+      { "texto": "(-2, 0) e (0, 4)", "correta": false }
+    ]
+  },
+  {
+    "id": 55,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Uma caixa tem o formato de um paralelepípedo reto retângulo com dimensões 20 cm, 30 cm e 50 cm. O volume interno dessa caixa, em litros, é igual a (Lembre-se: 1 litro = 1000 cm³):",
+    "alternativas": [
+      { "texto": "30 litros", "correta": true },
+      { "texto": "60 litros", "correta": false },
+      { "texto": "300 litros", "correta": false },
+      { "texto": "3.000 litros", "correta": false }
+    ]
+  },
+  {
+    "id": 56,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Literatura",
+    "dificuldade": "Média",
+    "enunciado": "O Realismo brasileiro teve em Machado de Assis seu maior expoente. A obra que marca o início dessa estética literária no Brasil, rompendo com o Romantismo ao apresentar uma análise psicológica profunda e irônica da sociedade, é:",
+    "alternativas": [
+      { "texto": "Iracema.", "correta": false },
+      { "texto": "Memórias Póstumas de Brás Cubas.", "correta": true },
+      { "texto": "O Guarani.", "correta": false },
+      { "texto": "Os Sertões.", "correta": false }
+    ]
+  },
+  {
+    "id": 57,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Inglês",
+    "dificuldade": "Média",
+    "enunciado": "Em textos argumentativos em língua inglesa, os 'linking words' (conectivos) são essenciais para a coesão. A palavra 'Although' introduz uma ideia de:",
+    "alternativas": [
+      { "texto": "Adição.", "correta": false },
+      { "texto": "Causa e consequência.", "correta": false },
+      { "texto": "Concessão/Contraste.", "correta": true },
+      { "texto": "Conclusão.", "correta": false }
+    ]
+  },
+  {
+    "id": 58,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Filosofia",
+    "dificuldade": "Média",
+    "enunciado": "René Descartes é considerado o 'pai' da filosofia moderna e do Racionalismo. A sua famosa frase 'Penso, logo existo' (Cogito, ergo sum) é resultado de um método criado por ele, que consiste em:",
+    "alternativas": [
+      { "texto": "Aceitar como verdade apenas aquilo que pode ser comprovado através da experiência sensorial e da observação empírica da natureza.", "correta": false },
+      { "texto": "Duvidar metodicamente de todas as crenças e conhecimentos preexistentes até encontrar uma verdade indubitável.", "correta": true },
+      { "texto": "Confiar plenamente nos dogmas religiosos, submetendo a razão à fé incondicional.", "correta": false },
+      { "texto": "Negar a existência de qualquer verdade, afirmando que o conhecimento humano é uma ilusão criada pela mente.", "correta": false }
+    ]
+  },
+  {
+    "id": 59,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Média",
+    "enunciado": "Gregor Mendel, realizando experimentos com ervilhas, estabeleceu as bases da genética clássica. A Primeira Lei de Mendel, ou Lei da Segregação dos Fatores, afirma que:",
+    "alternativas": [
+      { "texto": "Todas as características de um indivíduo são determinadas pelo ambiente em que ele se desenvolve.", "correta": false },
+      { "texto": "Os alelos de genes diferentes se separam de forma dependente durante a formação dos gametas.", "correta": false },
+      { "texto": "Cada característica é determinada por um par de fatores que se separam na formação dos gametas, indo apenas um fator para cada gameta.", "correta": true },
+      { "texto": "As mutações genéticas ocorrem exclusivamente por ação de radiações ultravioleta sobre o código genético.", "correta": false }
+    ]
+  },
+  {
+    "id": 60,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Média",
+    "enunciado": "A ligação química formada pelo compartilhamento de pares de elétrons entre átomos de não metais (ametais) ou entre o hidrogênio e um não metal, visando adquirir a configuração eletrônica de um gás nobre, é denominada:",
+    "alternativas": [
+      { "texto": "Ligação iônica.", "correta": false },
+      { "texto": "Ligação metálica.", "correta": false },
+      { "texto": "Ligação covalente.", "correta": true },
+      { "texto": "Ponte de hidrogênio.", "correta": false }
+    ]
+  },
+  {
+    "id": 61,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Para a construção de um palco circular para um festival de música, sabe-se que o raio do círculo mede 10 metros. Considerando Pi = 3,14, qual será a área total desse palco?",
+    "alternativas": [
+      { "texto": "31,4 metros quadrados.", "correta": false },
+      { "texto": "62,8 metros quadrados.", "correta": false },
+      { "texto": "314 metros quadrados.", "correta": true },
+      { "texto": "628 metros quadrados.", "correta": false }
+    ]
+  },
+  {
+    "id": 62,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Média",
+    "enunciado": "As vacinas são importantes aliadas na saúde pública. Do ponto de vista imunológico, a eficácia de uma vacina reside na sua capacidade de:",
+    "alternativas": [
+      { "texto": "Introduzir anticorpos prontos no organismo, garantindo cura imediata contra a infecção.", "correta": false },
+      { "texto": "Estimular o sistema imunológico a produzir células de memória através da introdução de antígenos atenuados ou inativos.", "correta": true },
+      { "texto": "Destruir diretamente o DNA ou RNA do vírus hospedeiro antes que ele invada as células somáticas.", "correta": false },
+      { "texto": "Aumentar a produção de glóbulos vermelhos, melhorando a oxigenação dos tecidos infectados.", "correta": false }
+    ]
+  },
+  {
+    "id": 63,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Em um campeonato escolar de xadrez, há 6 alunos disputando a fase final. De quantas maneiras diferentes podemos formar o pódio com o primeiro, segundo e terceiro colocados?",
+    "alternativas": [
+      { "texto": "18 maneiras.", "correta": false },
+      { "texto": "20 maneiras.", "correta": false },
+      { "texto": "120 maneiras.", "correta": true },
+      { "texto": "216 maneiras.", "correta": false }
+    ]
+  },
+  {
+    "id": 64,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Uma diferença fundamental entre o sistema de capitalização a juros simples e o de juros compostos é que:",
+    "alternativas": [
+      { "texto": "Nos juros compostos, a taxa de juros incide sempre sobre o capital inicial, resultando em um crescimento linear do montante.", "correta": false },
+      { "texto": "Nos juros simples, a taxa de juros varia mês a mês de acordo com a inflação acumulada do período.", "correta": false },
+      { "texto": "Nos juros compostos, a taxa de juros incide sobre o montante acumulado do período anterior, caracterizando o 'juro sobre juro'.", "correta": true },
+      { "texto": "Ambos os sistemas produzem exatamente o mesmo rendimento ao final de períodos maiores que 12 meses.", "correta": false }
+    ]
+  },
+  {
+    "id": 65,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Literatura",
+    "dificuldade": "Média",
+    "enunciado": "O Romantismo, movimento literário do século XIX, dividiu-se em três gerações na poesia brasileira. A segunda geração, conhecida como 'Ultrarromântica' ou 'Mal do Século', foi marcada por sentimentos como:",
+    "alternativas": [
+      { "texto": "O nacionalismo exaltado e a valorização do índio como herói formador do Brasil.", "correta": false },
+      { "texto": "O engajamento político e a luta abolicionista, com duras críticas à sociedade escravocrata.", "correta": false },
+      { "texto": "O pessimismo, a melancolia, a idealização da infância e a fuga da realidade, frequentemente flertando com a ideia da morte.", "correta": true },
+      { "texto": "A observação objetiva e científica do comportamento humano, buscando explicar os vícios sociais através da biologia.", "correta": false }
+    ]
+  },
+  {
+    "id": 66,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Artes",
+    "dificuldade": "Média",
+    "enunciado": "A pintura 'Abaporu', de Tarsila do Amaral, tornou-se o principal símbolo do Movimento Antropofágico no Brasil. Esse movimento, encabeçado por Oswald de Andrade, propunha:",
+    "alternativas": [
+      { "texto": "A cópia fiel e incontestável das técnicas clássicas da pintura europeia renascentista.", "correta": false },
+      { "texto": "A destruição de todo o patrimônio histórico brasileiro para construir uma cultura completamente nova do zero.", "correta": false },
+      { "texto": "A 'deglutição' (assimilação) das influências culturais estrangeiras, misturando-as à cultura nacional para criar uma arte brasileira original.", "correta": true },
+      { "texto": "A recusa de qualquer elemento da cultura popular indígena ou afro-brasileira nas produções artísticas oficiais.", "correta": false }
+    ]
+  },
+  {
+    "id": 67,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Inglês",
+    "dificuldade": "Média",
+    "enunciado": "Na língua inglesa, existem os chamados 'falsos cognatos' (false friends), palavras que se assemelham na grafia com o português, mas possuem significados diferentes. A palavra 'Pretend' significa:",
+    "alternativas": [
+      { "texto": "Pretender ou ter a intenção de algo.", "correta": false },
+      { "texto": "Fingir ou simular.", "correta": true },
+      { "texto": "Entender ou compreender.", "correta": false },
+      { "texto": "Prevenir ou evitar que algo aconteça.", "correta": false }
+    ]
+  },
+  {
+    "id": 68,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Filosofia",
+    "dificuldade": "Média",
+    "enunciado": "Os filósofos contratualistas, como Thomas Hobbes, John Locke e Jean-Jacques Rousseau, buscaram explicar a origem do Estado. Para Hobbes, em sua obra 'Leviatã', a necessidade do Estado absoluto surge porque:",
+    "alternativas": [
+      { "texto": "No estado de natureza, o ser humano é naturalmente bom e solidário, mas a propriedade privada o corrompe.", "correta": false },
+      { "texto": "No estado de natureza prevalece a 'guerra de todos contra todos', sendo necessário um poder soberano para garantir a paz e a autopreservação.", "correta": true },
+      { "texto": "O Estado é uma instituição divina, criada por Deus para julgar os pecados e garantir a salvação das almas humanas.", "correta": false },
+      { "texto": "O monarca deve servir como um mediador passivo, sem interferir diretamente nas liberdades econômicas e individuais dos cidadãos.", "correta": false }
+    ]
+  },
+  {
+    "id": 69,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Sociologia",
+    "dificuldade": "Média",
+    "enunciado": "O conceito de 'Indústria Cultural' foi formulado por Theodor Adorno e Max Horkheimer, pensadores da Escola de Frankfurt. Segundo essa teoria, a Indústria Cultural tem como objetivo:",
+    "alternativas": [
+      { "texto": "Transformar as obras de arte em produtos padronizados para o consumo em massa, esvaziando seu potencial crítico.", "correta": true },
+      { "texto": "Incentivar a diversidade cultural e a produção artística independente nas periferias dos grandes centros urbanos.", "correta": false },
+      { "texto": "Democratizar o acesso ao conhecimento filosófico profundo através de programas educacionais gratuitos na televisão.", "correta": false },
+      { "texto": "Valorizar as manifestações folclóricas locais, protegendo-as das influências do mercado capitalista internacional.", "correta": false }
+    ]
+  },
+  {
+    "id": 70,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Média",
+    "enunciado": "A membrana plasmática celular atua como uma barreira seletiva. O transporte ativo através dessa membrana diferencia-se do transporte passivo porque:",
+    "alternativas": [
+      { "texto": "Ocorre sempre a favor do gradiente de concentração, sem necessidade de gasto de energia.", "correta": false },
+      { "texto": "Ocorre contra o gradiente de concentração, exigindo o consumo de energia na forma de ATP celular.", "correta": true },
+      { "texto": "Envolve exclusivamente o movimento de moléculas de água por osmose, sem participação de proteínas carreadoras.", "correta": false },
+      { "texto": "Ocorre apenas em células mortas ou danificadas, visando eliminar toxinas acumuladas no citoplasma.", "correta": false }
+    ]
+  },
+  {
+    "id": 71,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Média",
+    "enunciado": "No sistema sanguíneo ABO, indivíduos com sangue do tipo O são frequentemente chamados de 'doadores universais'. Isso ocorre porque o sangue do tipo O:",
+    "alternativas": [
+      { "texto": "Possui tanto os aglutinogênios A quanto os B na membrana das suas hemácias.", "correta": false },
+      { "texto": "Possui anticorpos anti-A e anti-B que destroem qualquer tipo de infecção no receptor.", "correta": false },
+      { "texto": "Não possui aglutinogênios (antígenos) A e B na superfície de suas hemácias, evitando aglutinação pelo receptor.", "correta": true },
+      { "texto": "Apresenta o fator Rh positivo, que é compatível com todos os sistemas circulatórios humanos.", "correta": false }
+    ]
+  },
+  {
+    "id": 72,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Um reservatório de formato cilíndrico tem raio da base medindo 2 metros e altura de 5 metros. Qual é o volume total que esse reservatório pode comportar? (Considere Pi = 3)",
+    "alternativas": [
+      { "texto": "30 metros cúbicos.", "correta": false },
+      { "texto": "60 metros cúbicos.", "correta": true },
+      { "texto": "120 metros cúbicos.", "correta": false },
+      { "texto": "150 metros cúbicos.", "correta": false }
+    ]
+  },
+  {
+    "id": 73,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Ao lançar dois dados não viciados de seis faces simultaneamente, qual é a probabilidade de que a soma dos números sorteados nas faces superiores seja exatamente igual a 7?",
+    "alternativas": [
+      { "texto": "1/36", "correta": false },
+      { "texto": "1/12", "correta": false },
+      { "texto": "1/6", "correta": true },
+      { "texto": "1/4", "correta": false }
+    ]
+  },
+  {
+    "id": 74,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Uma loja estava vendendo uma televisão por R$ 2.000,00. Na Black Friday, o gerente concedeu um desconto de 20%. No mês seguinte, devido à baixa saída, ele aplicou um novo desconto de 10% sobre o valor já com a redução da Black Friday. Qual é o valor atual da televisão?",
+    "alternativas": [
+      { "texto": "R$ 1.400,00", "correta": false },
+      { "texto": "R$ 1.440,00", "correta": true },
+      { "texto": "R$ 1.500,00", "correta": false },
+      { "texto": "R$ 1.600,00", "correta": false }
+    ]
+  },
+  {
+    "id": 75,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Literatura",
+    "dificuldade": "Média",
+    "enunciado": "A Terceira Geração Modernista no Brasil (Geração de 45) revelou grandes nomes da nossa literatura. João Guimarães Rosa, autor de 'Grande Sertão: Veredas', destacou-se por apresentar uma obra com características marcantes, entre elas:",
+    "alternativas": [
+      { "texto": "O uso de linguagem formal e lusitana, evitando a oralidade e regionalismos para atingir um público europeu.", "correta": false },
+      { "texto": "A recriação inventiva da linguagem sertaneja, aliando o regionalismo geográfico a temas filosóficos e universais.", "correta": true },
+      { "texto": "O foco exclusivo nos problemas urbanos da cidade do Rio de Janeiro durante a modernização da virada do século.", "correta": false },
+      { "texto": "A adoção da poesia concreta como única forma viável de expressão narrativa, unindo palavras e imagens visuais.", "correta": false }
+    ]
+  },
+  {
+    "id": 76,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Língua Portuguesa",
+    "dificuldade": "Média",
+    "enunciado": "O poema de Carlos Drummond de Andrade que diz 'Lutar com palavras / é a luta mais vã. / Entanto lutamos / mal rompe a manhã' utiliza a língua para falar da própria produção do texto poético. A função da linguagem predominante nesse fragmento é a:",
+    "alternativas": [
+      { "texto": "Emotiva.", "correta": false },
+      { "texto": "Fática.", "correta": false },
+      { "texto": "Conativa (Apelativa).", "correta": false },
+      { "texto": "Metalinguística.", "correta": true }
+    ]
+  },
+  {
+    "id": 77,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Média",
+    "enunciado": "A democracia ateniense, desenvolvida na Grécia Antiga no século V a.C., é frequentemente lembrada como o berço da participação política. No entanto, ela diferia profundamente das democracias representativas modernas porque a democracia em Atenas era:",
+    "alternativas": [
+      { "texto": "Representativa e universal, garantindo o direito de voto a todos os habitantes da cidade, incluindo escravizados e estrangeiros.", "correta": false },
+      { "texto": "Direta e restrita, pois apenas os cidadãos (homens adultos, livres e filhos de pais atenienses) podiam participar ativamente das assembleias.", "correta": true },
+      { "texto": "Censitária e teocrática, onde o poder de decisão estava restrito aos sacerdotes mais ricos do Panteão grego.", "correta": false },
+      { "texto": "Parlamentarista e monárquica, controlada por um rei eleito a cada dez anos pelo conselho de anciãos.", "correta": false }
+    ]
+  },
+  {
+    "id": 78,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Sociologia",
+    "dificuldade": "Média",
+    "enunciado": "Max Weber é um dos fundadores da Sociologia compreensiva. Para ele, o objeto de estudo da Sociologia não são os 'fatos sociais' exteriores ao indivíduo, mas sim a 'Ação Social'. Segundo Weber, uma ação só é social quando:",
+    "alternativas": [
+      { "texto": "É realizada em benefício exclusivo de instituições financeiras globais.", "correta": false },
+      { "texto": "Possui um sentido subjetivo dado pelo indivíduo que a pratica, levando em conta o comportamento de outras pessoas.", "correta": true },
+      { "texto": "Ocorre de forma irracional e puramente biológica, como um reflexo instintivo frente a um estímulo de perigo.", "correta": false },
+      { "texto": "É imposta pelo Estado através da violência militar contra uma minoria da população.", "correta": false }
+    ]
+  },
+  {
+    "id": 79,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "História",
+    "dificuldade": "Média",
+    "enunciado": "A descoberta de ouro em Minas Gerais no final do século XVII alterou profundamente a dinâmica da colônia brasileira. Uma das principais consequências econômicas e demográficas da mineração no Brasil colonial foi:",
+    "alternativas": [
+      { "texto": "A estagnação do comércio interno e o isolamento total da região Sudeste em relação às províncias do Nordeste.", "correta": false },
+      { "texto": "A criação de uma sociedade altamente igualitária, sem distinção entre senhores e escravizados nas áreas de garimpo.", "correta": false },
+      { "texto": "A transferência do eixo econômico e demográfico do Nordeste açucareiro para o Centro-Sul, impulsionando a urbanização e o mercado interno.", "correta": true },
+      { "texto": "O declínio imediato e definitivo da escravidão africana, substituída pela imigração de assalariados europeus no século XVIII.", "correta": false }
+    ]
+  },
+  {
+    "id": 80,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Geografia",
+    "dificuldade": "Média",
+    "enunciado": "O colapso da União Soviética em 1991 marcou o fim da Guerra Fria e o início da chamada 'Nova Ordem Mundial'. No aspecto geopolítico e econômico, essa nova ordem caracterizou-se inicialmente pela:",
+    "alternativas": [
+      { "texto": "Bipolaridade rígida entre a China comunista e o Japão capitalista na disputa pela hegemonia asiática.", "correta": false },
+      { "texto": "Unipolaridade militar e política dos Estados Unidos e multipolaridade econômica, com o fortalecimento de blocos como a União Europeia.", "correta": true },
+      { "texto": "Adoção unânime de governos socialistas em toda a América Latina patrocinada pelo enfraquecimento de Washington.", "correta": false },
+      { "texto": "Dissolução da Organização das Nações Unidas (ONU) por ser considerada ineficaz na mediação de conflitos do Leste Europeu.", "correta": false }
+    ]
+  },
+  {
+    "id": 81,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Biologia",
+    "dificuldade": "Média",
+    "enunciado": "Os organismos geneticamente modificados (OGMs), ou transgênicos, são amplamente utilizados na agricultura moderna. A principal técnica de biotecnologia envolvida na criação de um organismo transgênico consiste em:",
+    "alternativas": [
+      { "texto": "Clonar um animal adulto através da transferência de um núcleo somático para um óvulo anucleado.", "correta": false },
+      { "texto": "Cruzar seletivamente indivíduos da mesma espécie até obter o fenótipo desejado em gerações futuras.", "correta": false },
+      { "texto": "Inserir um ou mais genes de uma espécie diferente no genoma de um organismo, conferindo-lhe uma nova característica.", "correta": true },
+      { "texto": "Submeter sementes à radiação gama para induzir mutações aleatórias e torná-las resistentes a insetos.", "correta": false }
+    ]
+  },
+  {
+    "id": 82,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Média",
+    "enunciado": "De acordo com o Princípio de Le Chatelier, quando um sistema químico em equilíbrio sofre uma perturbação externa (como alteração de pressão, temperatura ou concentração), o sistema:",
+    "alternativas": [
+      { "texto": "Cessa imediatamente todas as reações químicas, paralisando a nível molecular.", "correta": false },
+      { "texto": "Explode instantaneamente devido à quebra irreversível das ligações covalentes.", "correta": false },
+      { "texto": "Desloca o equilíbrio no sentido de minimizar ou anular essa perturbação, estabelecendo um novo estado de equilíbrio.", "correta": true },
+      { "texto": "Converte todos os produtos de volta em reagentes de forma irreversível e exotérmica.", "correta": false }
+    ]
+  },
+  {
+    "id": 83,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Física",
+    "dificuldade": "Média",
+    "enunciado": "Quando uma ambulância com a sirene ligada se aproxima de um observador parado, o observador percebe o som da sirene mais agudo do que quando a ambulância se afasta. Esse fenômeno ondulatório da alteração da frequência aparente percebida devido ao movimento relativo entre a fonte e o observador é chamado de:",
+    "alternativas": [
+      { "texto": "Ressonância.", "correta": false },
+      { "texto": "Efeito Joule.", "correta": false },
+      { "texto": "Difração.", "correta": false },
+      { "texto": "Efeito Doppler.", "correta": true }
+    ]
+  },
+  {
+    "id": 84,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "A fórmula de Bhaskara é utilizada para encontrar as raízes de uma equação do segundo grau do tipo ax² + bx + c = 0. A parte da fórmula representada por b² - 4ac é chamada de discriminante (delta). Se o valor de delta for menor que zero (negativo), pode-se afirmar que:",
+    "alternativas": [
+      { "texto": "A equação possui duas raízes reais e iguais.", "correta": false },
+      { "texto": "A equação possui duas raízes reais e distintas.", "correta": false },
+      { "texto": "A equação não possui raízes reais, apenas raízes no conjunto dos números complexos.", "correta": true },
+      { "texto": "A equação é, na verdade, do primeiro grau.", "correta": false }
+    ]
+  },
+  {
+    "id": 85,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Em um triângulo retângulo, a hipotenusa mede 10 cm e um dos catetos mede 6 cm. Pelo Teorema de Pitágoras, a medida do outro cateto é:",
+    "alternativas": [
+      { "texto": "4 cm.", "correta": false },
+      { "texto": "8 cm.", "correta": true },
+      { "texto": "12 cm.", "correta": false },
+      { "texto": "16 cm.", "correta": false }
+    ]
+  },
+  {
+    "id": 86,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Em um processo seletivo, a nota de matemática tem peso 3 e a nota de português tem peso 2. Se um candidato tirar 8 em matemática e 6 em português, a sua média ponderada final será:",
+    "alternativas": [
+      { "texto": "7,0", "correta": false },
+      { "texto": "7,2", "correta": true },
+      { "texto": "7,4", "correta": false },
+      { "texto": "14,0", "correta": false }
+    ]
+  },
+  {
+    "id": 87,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Média",
+    "enunciado": "Uma progressão geométrica (P.G.) tem o primeiro termo igual a 2 e a razão igual a 3. Qual é o valor do quarto termo dessa P.G.?",
+    "alternativas": [
+      { "texto": "18", "correta": false },
+      { "texto": "24", "correta": false },
+      { "texto": "54", "correta": true },
+      { "texto": "162", "correta": false }
+    ]
+  },
+  {
+    "id": 88,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Literatura",
+    "dificuldade": "Média",
+    "enunciado": "O Pré-Modernismo no Brasil não foi uma escola literária bem definida, mas um período de transição caracterizado por uma postura mais crítica em relação à realidade brasileira. Uma obra fundamental desse período, escrita por Euclides da Cunha, que relata de forma sociológica e jornalística a Guerra de Canudos, é:",
+    "alternativas": [
+      { "texto": "Triste Fim de Policarpo Quaresma.", "correta": false },
+      { "texto": "Os Sertões.", "correta": true },
+      { "texto": "Macunaíma.", "correta": false },
+      { "texto": "Vidas Secas.", "correta": false }
+    ]
+  },
+  {
+    "id": 89,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Sociologia",
+    "dificuldade": "Difícil",
+    "enunciado": "O conceito de 'Fato Social', estabelecido por Émile Durkheim, é fundamental para a Sociologia clássica. Segundo Durkheim, os fatos sociais caracterizam-se por três aspectos principais, que são:",
+    "alternativas": [
+      { "texto": "Subjetividade, flexibilidade e temporalidade.", "correta": false },
+      { "texto": "Coercitividade, exterioridade e generalidade.", "correta": true },
+      { "texto": "Individualidade, naturalidade e racionalidade.", "correta": false },
+      { "texto": "Solidariedade, mecanicidade e organicidade.", "correta": false }
+    ]
+  },
+  {
+    "id": 90,
+    "area": "Linguagens, Códigos e suas Tecnologias",
+    "disciplina": "Língua Portuguesa",
+    "dificuldade": "Difícil",
+    "enunciado": "Considere a frase: 'Assiste-se a bons filmes neste cinema'. A partícula 'se' exerce, nesse contexto, a função de:",
+    "alternativas": [
+      { "texto": "Pronome apassivador, pois a frase está na voz passiva sintética.", "correta": false },
+      { "texto": "Índice de indeterminação do sujeito, visto que o verbo é transitivo indireto.", "correta": true },
+      { "texto": "Pronome reflexivo, indicando que o sujeito pratica e sofre a ação.", "correta": false },
+      { "texto": "Conjunção integrante, introduzindo uma oração subordinada substantiva.", "correta": false }
+    ]
+  },
+  {
+    "id": 91,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Filosofia",
+    "dificuldade": "Difícil",
+    "enunciado": "O mito da caverna, descrito por Platão no livro 'A República', é uma alegoria clássica da filosofia. Nele, a saída do prisioneiro da caverna e a contemplação da luz do Sol representam:",
+    "alternativas": [
+      { "texto": "A aceitação das ilusões do mundo sensível como a única verdade possível.", "correta": false },
+      { "texto": "O processo de ascensão do conhecimento empírico para o conhecimento inteligível, alcançando a ideia do Bem.", "correta": true },
+      { "texto": "A recusa da filosofia e o retorno voluntário à ignorância e aos preconceitos da sociedade.", "correta": false },
+      { "texto": "A demonstração de que a verdadeira sabedoria só pode ser alcançada após a morte do corpo físico.", "correta": false }
+    ]
+  },
+  {
+    "id": 92,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Física",
+    "dificuldade": "Difícil",
+    "enunciado": "A energia solar é convertida em energia elétrica nas placas fotovoltaicas por meio do efeito fotoelétrico. Esse efeito, explicado por Albert Einstein, consiste na:",
+    "alternativas": [
+      { "texto": "Transformação de calor em eletricidade pelo atrito entre fótons e elétrons.", "correta": false },
+      { "texto": "Emissão de elétrons por um material metálico quando iluminado por radiação eletromagnética de frequência adequada.", "correta": true },
+      { "texto": "Geração de luz por materiais semicondutores quando submetidos a uma corrente elétrica contínua.", "correta": false },
+      { "texto": "Absorção de elétrons do ar atmosférico por superfícies escuras aquecidas pelo sol.", "correta": false }
+    ]
+  },
+  {
+    "id": 93,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Difícil",
+    "enunciado": "Para preencher um tanque de água de 10.000 litros, uma torneira com vazão constante leva 5 horas. Se adicionarmos uma segunda torneira idêntica à primeira, qual será o tempo necessário para encher o tanque completamente vazio?",
+    "alternativas": [
+      { "texto": "1,5 horas", "correta": false },
+      { "texto": "2,5 horas", "correta": true },
+      { "texto": "5 horas", "correta": false },
+      { "texto": "10 horas", "correta": false }
+    ]
+  },
+  {
+    "id": 94,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Difícil",
+    "enunciado": "O salário de um funcionário sofreu um reajuste de 10% em janeiro. Em fevereiro, devido a problemas financeiros da empresa, todos os salários sofreram um corte de 10%. Em relação ao salário inicial antes do primeiro reajuste, o salário atual do funcionário é:",
+    "alternativas": [
+      { "texto": "Exatamente igual ao salário inicial.", "correta": false },
+      { "texto": "1% maior que o salário inicial.", "correta": false },
+      { "texto": "1% menor que o salário inicial.", "correta": true },
+      { "texto": "10% menor que o salário inicial.", "correta": false }
+    ]
+  },
+  {
+    "id": 95,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Física",
+    "dificuldade": "Difícil",
+    "enunciado": "Um motorista realiza uma viagem de 240 km. Ele percorre a primeira metade do trajeto (120 km) a uma velocidade média de 60 km/h e a segunda metade do trajeto (120 km) a uma velocidade média de 40 km/h. A velocidade média do motorista em toda a viagem foi de:",
+    "alternativas": [
+      { "texto": "48 km/h.", "correta": true },
+      { "texto": "50 km/h.", "correta": false },
+      { "texto": "52 km/h.", "correta": false },
+      { "texto": "100 km/h.", "correta": false }
+    ]
+  },
+  {
+    "id": 96,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Difícil",
+    "enunciado": "Na química orgânica, as funções oxigenadas agrupam compostos que contêm oxigênio em sua estrutura. A substância cujo grupo funcional é uma hidroxila (-OH) ligada diretamente a um átomo de carbono saturado (que faz apenas ligações simples) pertence à função:",
+    "alternativas": [
+      { "texto": "Álcool.", "correta": true },
+      { "texto": "Aldeído.", "correta": false },
+      { "texto": "Cetona.", "correta": false },
+      { "texto": "Ácido Carboxílico.", "correta": false }
+    ]
+  },
+  {
+    "id": 97,
+    "area": "Ciências da Natureza e suas Tecnologias",
+    "disciplina": "Química",
+    "dificuldade": "Difícil",
+    "enunciado": "A água possui um ponto de ebulição (100°C ao nível do mar) anormalmente alto se comparada a outras substâncias de massa molar semelhante, como o H2S. Isso se deve à presença de forças intermoleculares muito intensas na água, denominadas:",
+    "alternativas": [
+      { "texto": "Forças de London (dipolo induzido).", "correta": false },
+      { "texto": "Interações íon-dipolo.", "correta": false },
+      { "texto": "Ligações covalentes apolares.", "correta": false },
+      { "texto": "Ligações (ou Pontes) de Hidrogênio.", "correta": true }
+    ]
+  },
+  {
+    "id": 98,
+    "area": "Matemática e suas Tecnologias",
+    "disciplina": "Matemática",
+    "dificuldade": "Difícil",
+    "enunciado": "Um usuário precisa criar uma senha de 4 dígitos usando apenas os algarismos de 0 a 9. Se ele não deseja repetir nenhum algarismo na senha, quantas combinações diferentes ele poderá criar?",
+    "alternativas": [
+      { "texto": "1.024 combinações.", "correta": false },
+      { "texto": "5.040 combinações.", "correta": true },
+      { "texto": "6.561 combinações.", "correta": false },
+      { "texto": "10.000 combinações.", "correta": false }
+    ]
+  },
+  {
+    "id": 99,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Geografia",
+    "dificuldade": "Difícil",
+    "enunciado": "Devido à sua vasta extensão territorial no sentido leste-oeste, o Brasil possui diferentes fusos horários. Em 2013, uma lei restabeleceu a configuração de fusos horários no país. Atualmente, o Brasil possui:",
+    "alternativas": [
+      { "texto": "Apenas um único fuso horário, o Horário de Brasília, para unificar as transações bancárias e comerciais.", "correta": false },
+      { "texto": "Dois fusos horários, dividindo o país entre o litoral e o interior.", "correta": false },
+      { "texto": "Três fusos horários, abrangendo as ilhas oceânicas, a região oriental e a região ocidental do país.", "correta": false },
+      { "texto": "Quatro fusos horários, que variam de -2 horas a -5 horas em relação ao Meridiano de Greenwich (GMT).", "correta": true }
+    ]
+  },
+  {
+    "id": 100,
+    "area": "Ciências Humanas e suas Tecnologias",
+    "disciplina": "Filosofia",
+    "dificuldade": "Difícil",
+    "enunciado": "Immanuel Kant, em sua obra 'Fundamentação da Metafísica dos Costumes', propõe o conceito de Imperativo Categórico como base para a ética. O princípio fundamental do Imperativo Categórico estabelece que:",
+    "alternativas": [
+      { "texto": "O fim justifica os meios, desde que a ação traga a maior felicidade para o maior número de pessoas.", "correta": false },
+      { "texto": "A moralidade de uma ação depende estritamente das tradições culturais e religiosas da sociedade em que o indivíduo vive.", "correta": false },
+      { "texto": "Devemos agir apenas segundo uma máxima que possamos querer, ao mesmo tempo, que se torne uma lei universal.", "correta": true },
+      { "texto": "As ações humanas devem ser guiadas pelo instinto de sobrevivência e pela busca do prazer individual constante.", "correta": false }
+    ]
+  }
+]

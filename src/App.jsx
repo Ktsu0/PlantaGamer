@@ -19,7 +19,6 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/quiz" element={<Quiz />} />
-            {/* Fallback to welcome screen */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
