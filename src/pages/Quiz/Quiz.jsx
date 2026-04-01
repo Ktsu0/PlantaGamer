@@ -11,6 +11,8 @@ import {
   HelpCircle,
   Shapes,
   LibraryBig,
+  Expand,
+  X,
 } from "lucide-react";
 import questionsData from "../../Perguntas.json";
 import "./Quiz.css";
@@ -54,6 +56,7 @@ const Quiz = () => {
   const [answers, setAnswers] = useState([]);
   const [showResult, setShowResult] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
+  const [expandedOption, setExpandedOption] = useState(null);
 
   useEffect(() => {
     const stored = sessionStorage.getItem("plantFlipRect");
@@ -214,9 +217,52 @@ const Quiz = () => {
                           {String.fromCharCode(65 + i)}
                         </div>
                         <div className="option-content-split">{opt}</div>
+                        
+                        {opt.length > 100 && (
+                          <div 
+                            className="expand-trigger" 
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setExpandedOption(opt);
+                            }}
+                            title="Ver texto completo"
+                          >
+                            <Expand size={14} />
+                          </div>
+                        )}
                       </button>
                     ))}
                   </div>
+
+                  <AnimatePresence>
+                    {expandedOption && (
+                      <motion.div 
+                        className="option-modal-overlay"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        onClick={() => setExpandedOption(null)}
+                      >
+                        <motion.div 
+                          className="option-modal-card"
+                          initial={{ scale: 0.8, y: 20 }}
+                          animate={{ scale: 1, y: 0 }}
+                          exit={{ scale: 0.8, y: 20 }}
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <div className="modal-header-simple">
+                            <span>Alternativa Completa</span>
+                            <button onClick={() => setExpandedOption(null)}>
+                              <X size={18} />
+                            </button>
+                          </div>
+                          <div className="modal-body-scroll">
+                            {expandedOption}
+                          </div>
+                        </motion.div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
 
                   <div className="quiz-split-footer">
                     <div className="focus-indicator">

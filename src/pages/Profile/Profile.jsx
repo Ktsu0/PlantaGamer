@@ -9,11 +9,51 @@ import {
   Sparkles,
   Calendar,
   Trophy,
+  Leaf,
+  Heart,
+  Droplets,
+  CloudLightning,
+  Edit2,
+  Check,
+  ChevronDown,
 } from "lucide-react";
 import "./Profile.css";
 
 const Profile = () => {
-  const { plant } = useGame();
+  const { plant, setPlant, getSpriteUrl } = useGame();
+  const [isEditingName, setIsEditingName] = React.useState(false);
+  const [editName, setEditName] = React.useState(plant.name || "Jardineiro");
+  const [showTitles, setShowTitles] = React.useState(false);
+
+  const titles = [
+    { minLvl: 1, name: "Jardineiro Aprendiz" },
+    { minLvl: 11, name: "Mestre das Folhas" },
+    { minLvl: 21, name: "Curador da Selva" },
+    { minLvl: 31, name: "Guardião das Selvas" },
+    { minLvl: 41, name: "Lendário Botânico" },
+  ];
+
+  const availableTitles = titles.filter(t => plant.level >= t.minLvl);
+
+  const handleSaveName = () => {
+    setPlant(prev => ({ ...prev, name: editName }));
+    setIsEditingName(false);
+  };
+
+  const handleSelectTitle = (titleName) => {
+    setPlant(prev => ({ ...prev, title: titleName }));
+    setShowTitles(false);
+  };
+
+  const getHealthStatus = () => {
+    if (plant.isEternal) return { label: "IMORTALIDADE ATIVADA", color: "#8b5cf6", icon: <Sparkles size={16} /> };
+    if (plant.witherStage === 1) return { label: "SENTINDO SEDE", color: "#f59e0b", icon: <Droplets size={16} /> };
+    if (plant.witherStage === 2) return { label: "MURCHANDO", color: "#f97316", icon: <CloudLightning size={16} /> };
+    if (plant.witherStage >= 3) return { label: "ESTADO CRÍTICO", color: "#ef4444", icon: <Zap size={16} /> };
+    return { label: "SAUDÁVEL E VIBRANTE", color: "#10b981", icon: <Heart size={16} /> };
+  };
+
+  const health = getHealthStatus();
 
   const stats = [
     {
@@ -49,30 +89,68 @@ const Profile = () => {
               alt="UserAvatar"
               className="avatar-large-img"
             />
-            <div className="absolute -bottom-2 -right-2 bg-[#323b52] text-white w-10 h-10 rounded-full flex items-center justify-center border-4 border-[#e6faff] shadow-lg">
-              <Star size={18} className="text-[#a1efff]" />
-            </div>
           </div>
 
           <div>
-            <h2 className="profile-name">GreenMaster_88</h2>
-            <p className="profile-title">JARDINEIRO LENDÁRIO</p>
+            <div className="flex items-center justify-center gap-2 mb-1">
+              {isEditingName ? (
+                <div className="flex items-center gap-2">
+                  <input 
+                    type="text" 
+                    className="profile-name-input"
+                    value={editName}
+                    onChange={(e) => setEditName(e.target.value)}
+                    autoFocus
+                  />
+                  <button className="confirm-btn" onClick={handleSaveName}><Check size={16} /></button>
+                </div>
+              ) : (
+                <>
+                  <h2 className="profile-name">{plant.name || "Jardineiro"}</h2>
+                  <button className="edit-btn" onClick={() => setIsEditingName(true)}><Edit2 size={14} /></button>
+                </>
+              )}
+            </div>
+            
+            <div className="relative">
+              <button 
+                className="profile-title-btn" 
+                onClick={() => setShowTitles(!showTitles)}
+              >
+                <span>{plant.title || "Jardineiro Aprendiz"}</span>
+                <ChevronDown size={12} />
+              </button>
+              
+              {showTitles && (
+                <div className="titles-dropdown glass">
+                  {availableTitles.map((t, i) => (
+                    <button 
+                      key={i} 
+                      className="title-option"
+                      onClick={() => handleSelectTitle(t.name)}
+                    >
+                      {t.name}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
 
           <div className="xp-container">
             <div className="xp-header">
               <span className="xp-label">XP Total</span>
-              <span className="xp-value">100,000</span>
+              <span className="xp-value">{plant.xp || 0}</span>
             </div>
             <div className="progress-bar">
-              <div className="progress-bar-fill" style={{ width: "50%" }} />
+              <div className="progress-bar-fill" style={{ width: `${(plant.level / 50) * 100}%` }} />
             </div>
             <div className="level-up-badge">
               <div className="flex items-center gap-2 text-xs font-bold text-[#005ab1]">
-                <Zap size={14} /> LEVEL UP
+                <Zap size={14} /> LEVEL {plant.level}
               </div>
               <span className="text-[10px] font-black text-[#00343c]/40">
-                50%
+                {((plant.level / 50) * 100).toFixed(0)}%
               </span>
             </div>
           </div>
@@ -99,36 +177,40 @@ const Profile = () => {
             ))}
           </div>
 
-          {/* Activity Timeline */}
+          {/* My Plants Display */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="glass timeline-card"
+            className="glass my-plants-card"
           >
-            <div className="timeline-header">
-              <div className="timeline-icon">
-                <Calendar size={20} />
+            <div className="my-plants-header">
+              <div className="my-plants-icon">
+                <Leaf size={20} />
               </div>
-              <h3 className="timeline-title">Timeline de Crescimento</h3>
+              <h3 className="timeline-title">Minha Planta Atual</h3>
             </div>
 
-            <div className="timeline-placeholder">
-              {[60, 40, 85, 50, 90, 70, 45].map((h, i) => (
-                <div
-                  key={i}
-                  className="timeline-bar"
-                  style={{ height: `${h}%` }}
-                >
-                  <span className="timeline-label">S{i + 1}</span>
-                </div>
-              ))}
+            <div className="plant-display-area">
+              <div className="plant-preview-orb" style={{ '--orb-color': health.color }} />
+              <motion.img 
+                src={getSpriteUrl(plant.level)}
+                alt="Situacao Atual"
+                className="plant-preview-img"
+                animate={{ y: [0, -10, 0] }}
+                transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
+              />
+              
+              <div className="plant-situation-badge" style={{ backgroundColor: `${health.color}15`, color: health.color, borderColor: `${health.color}30` }}>
+                {health.icon}
+                <span>{health.label}</span>
+              </div>
             </div>
 
             <div className="timeline-alert">
               <Sparkles size={16} className="text-[#005ab1]" />
               <span>
-                Parabéns! Na última semana você superou sua meta em <b>15%</b>.
+                Crescimento total de <b>{((plant.level / 50) * 100).toFixed(0)}%</b> até a maturidade completa.
               </span>
             </div>
           </motion.div>

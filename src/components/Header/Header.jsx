@@ -1,12 +1,15 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Bell, Trash2 } from "lucide-react";
+import { Bell, Trash2, Sun, Moon } from "lucide-react";
+import { useGame } from "../../context/GameContext";
 import iconGif from "../../assets/icon.gif";
 import "./Header.css";
 
 const Header = () => {
   const location = useLocation();
   const isProfile = location.pathname === "/profile";
+
+  const { darkMode, setDarkMode } = useGame();
 
   const handleDevReset = () => {
     if (window.confirm("Deseja resetar o progresso para a apresentação?")) {
