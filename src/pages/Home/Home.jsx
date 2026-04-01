@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useGame } from '../../context/GameContext';
-import { Zap, Clock, CheckCircle2, Lock, X, Search, Maximize2 } from 'lucide-react';
+import { Zap, Clock, CheckCircle2, Lock, X, Search, Maximize2, AlertTriangle } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
@@ -15,6 +15,7 @@ const Home = () => {
 
   const progressPercent = (plant.level / 50) * 100;
   const isAvailable = canPlayToday();
+  const showWitherWarning = plant.level >= 15 && !plant.isEternal && isAvailable;
 
   const handleStartQuiz = () => {
     if (!isAvailable || !plantCardRef.current) return;
@@ -35,6 +36,25 @@ const Home = () => {
 
   return (
     <div className="home-container">
+
+      {/* Wither Warning Banner */}
+      <AnimatePresence>
+        {showWitherWarning && (
+          <motion.div
+            className="wither-warning-banner"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.4 }}
+          >
+            <AlertTriangle size={15} className="wither-warning-icon" />
+            <span>
+              <b>AVISO:</b> Não deixe de evoluir sua planta!
+              A partir do nível 15, ela pode <b>murchar</b> se você parar de jogar.
+            </span>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Level badge */}
       <motion.div

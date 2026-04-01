@@ -83,11 +83,12 @@
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 2.5vw;
+  gap: 1vh;
 }
 
 .icon-button {
-  padding: 1.2vh 1vw;
+  width: 5vh;
+  height: 5vh;
   border-radius: 1.5vh;
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -95,6 +96,10 @@
   cursor: pointer;
   transition: all 0.2s;
   box-shadow: 0 0.5vh 1.5vh rgba(0, 0, 0, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .icon-button:hover {
@@ -132,7 +137,8 @@
   background: rgba(255, 0, 0, 0.05);
   color: #ef4444;
   border: 1px solid rgba(255, 0, 0, 0.1);
-  padding: 1.2vh 1vw;
+  width: 5vh;
+  height: 5vh;
   border-radius: 1.5vh;
   display: flex;
   align-items: center;
@@ -140,6 +146,7 @@
   cursor: pointer;
   transition: all 0.2s;
   opacity: 0.4;
+  flex-shrink: 0;
 }
 
 .dev-reset-btn:hover {

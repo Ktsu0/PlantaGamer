@@ -25,6 +25,11 @@ body {
   flex-direction: column;
 }
 
+/* Welcome page needs scrollable root */
+#root:has(.welcome-wrapper) {
+  overflow-y: auto;
+}
+
 .header-fixed {
   height: 10vh;
   width: 100vw;

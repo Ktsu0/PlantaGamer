@@ -1,3 +1,43 @@
+/* ⚠️ Wither Warning Banner */
+.wither-warning-banner {
+  position: absolute;
+  top: 1.5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+  background: linear-gradient(135deg, rgba(251, 146, 60, 0.12), rgba(239, 68, 68, 0.08));
+  border: 1.5px solid rgba(251, 146, 60, 0.4);
+  border-radius: 9999px;
+  padding: 1vh 2vw;
+  font-size: 1.35vh;
+  font-weight: 700;
+  color: #92400e;
+  white-space: nowrap;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(251, 146, 60, 0.15);
+  animation: wither-pulse 2.5s ease-in-out infinite;
+}
+
+.wither-warning-icon {
+  color: #f97316;
+  flex-shrink: 0;
+  animation: shake-icon 2.5s ease-in-out infinite;
+}
+
+@keyframes wither-pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(251, 146, 60, 0.15); }
+  50% { box-shadow: 0 4px 28px rgba(251, 146, 60, 0.35); border-color: rgba(251, 146, 60, 0.7); }
+}
+
+@keyframes shake-icon {
+  0%, 90%, 100% { transform: rotate(0deg); }
+  92% { transform: rotate(-8deg); }
+  96% { transform: rotate(8deg); }
+  98% { transform: rotate(-4deg); }
+}
+
 /* Home: centered layout */
 .home-container {
   height: 100vh;
