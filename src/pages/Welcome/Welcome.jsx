@@ -18,7 +18,24 @@ import planta01 from "../../assets/sprite/planta01.png";
 import planta02 from "../../assets/sprite/planta02.png";
 import planta03 from "../../assets/sprite/planta03.png";
 import planta05 from "../../assets/sprite/planta05.png";
+import plantaF07 from "../../assets/sprite/plantaF07.png";
 import plantaGod from "../../assets/sprite/plantaGod.png";
+
+/* Floating background plant instances (deterministic — no randomness) */
+const FLOATING_PLANTS = [
+  { img: planta01,  left:  4, size:  7, dur: 22, delay:  0, opacity: 0.10 },
+  { img: planta02,  left: 14, size:  5, dur: 18, delay:  5, opacity: 0.08 },
+  { img: planta03,  left: 25, size:  9, dur: 27, delay:  2, opacity: 0.07 },
+  { img: planta05,  left: 38, size:  6, dur: 20, delay:  9, opacity: 0.09 },
+  { img: plantaGod, left: 50, size:  8, dur: 30, delay:  4, opacity: 0.06 },
+  { img: plantaF07, left: 60, size:  5, dur: 16, delay: 13, opacity: 0.11 },
+  { img: planta01,  left: 70, size: 10, dur: 25, delay:  1, opacity: 0.07 },
+  { img: planta02,  left: 80, size:  6, dur: 21, delay:  7, opacity: 0.10 },
+  { img: planta03,  left: 90, size:  8, dur: 19, delay: 11, opacity: 0.08 },
+  { img: planta05,  left: 45, size:  5, dur: 24, delay: 17, opacity: 0.12 },
+  { img: plantaGod, left: 20, size:  7, dur: 28, delay:  3, opacity: 0.07 },
+  { img: plantaF07, left: 85, size:  9, dur: 23, delay: 15, opacity: 0.09 },
+];
 
 const PLANT_LEVELS = [
   {
@@ -153,7 +170,27 @@ const Welcome = () => {
   const current = PLANT_LEVELS[activePlant];
 
   return (
-    <div className="welcome-wrapper" ref={containerRef}>
+    <>
+      {/* ── Fixed floating plant background ── */}
+      <div className="wc-floating-bg" aria-hidden="true">
+        {FLOATING_PLANTS.map((p, i) => (
+          <img
+            key={i}
+            src={p.img}
+            alt=""
+            className="wc-floating-plant"
+            style={{
+              left: `${p.left}%`,
+              width: `${p.size}vh`,
+              animationDuration: `${p.dur}s`,
+              animationDelay: `${p.delay}s`,
+              opacity: p.opacity,
+            }}
+          />
+        ))}
+      </div>
+
+      <div className="welcome-wrapper" ref={containerRef}>
 
       {/* ── Side navigation dots ── */}
       <nav className="wc-side-nav">
@@ -454,6 +491,7 @@ const Welcome = () => {
       </section>
 
     </div>
+    </>
   );
 };
 
