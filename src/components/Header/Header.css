@@ -40,6 +40,8 @@
 
 .header-nav {
   display: none;
+  position: relative;
+  left: 4.3vw;
 }
 
 @media (min-width: 768px) {
@@ -170,4 +172,3 @@
   background: var(--on-surface);
   color: var(--bg-main);
 }
-
