@@ -30,7 +30,8 @@ const Profile = () => {
     { minLvl: 11, name: "Mestre das Folhas" },
     { minLvl: 21, name: "Curador da Selva" },
     { minLvl: 31, name: "Guardião das Selvas" },
-    { minLvl: 41, name: "Lendário Botânico" },
+    { minLvl: 41, name: "Florescido" },
+    { minLvl: 50, name: "Eternizado" },
   ];
 
   const availableTitles = titles.filter(t => plant.level >= t.minLvl);

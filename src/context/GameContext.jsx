@@ -86,8 +86,8 @@ export const GameProvider = ({ children }) => {
           // Soma os dias vazios no meio (em que o app nem foi aberto)
           if (diffDays > 1) missedDays += diffDays - 1;
 
-          // Punição: Murchar as plantas da fase >= planta05 (level 21+)
-          if (missedDays > 0 && prev.level >= 21 && !prev.isEternal) {
+          // Punição: Murchar as plantas da fase >= 15
+          if (missedDays > 0 && prev.level >= 15 && !prev.isEternal) {
             newState.witherStage = Math.min(
               3,
               (prev.witherStage || 0) + missedDays,
@@ -129,8 +129,8 @@ export const GameProvider = ({ children }) => {
 
     let sprite = sprites[Math.min(stage, sprites.length - 1)];
 
-    // Mecânica de Murchar: Sobrepõe o sprite se lvl >= 21, sem plano eterno e não cuidou bem
-    if (lvl >= 21 && plant.witherStage > 0 && !plant.isEternal) {
+    // Mecânica de Murchar: Sobrepõe o sprite se lvl >= 15, sem plano eterno e não cuidou bem
+    if (lvl >= 15 && plant.witherStage > 0 && !plant.isEternal) {
       if (plant.witherStage === 1) sprite = plantaF06;
       else if (plant.witherStage === 2) sprite = plantaF07;
       else sprite = plantaF08;
@@ -152,9 +152,9 @@ export const GameProvider = ({ children }) => {
     }
 
     setPlant((prev) => {
-      // Mecânica de cuidar/murchar da planta (> nivel 21) se acertar menos de 3.
+      // Mecânica de cuidar/murchar da planta (a partir do nível 15) se acertar menos de 3.
       let newWither = prev.witherStage || 0;
-      if (prev.level >= 21 && !prev.isEternal) {
+      if (prev.level >= 15 && !prev.isEternal) {
         if (correctCount < 3) {
           // Menos de 3 acertos: Piora a saúde da planta murchando!
           newWither = Math.min(3, newWither + 1);
