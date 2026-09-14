@@ -1,16 +1,36 @@
-# React + Vite
+# Planta Gamer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App web que gamifica o cuidado com plantas: um quiz de boas-vindas identifica o perfil do usuario e guia sua jornada de cuidado, com tela inicial, perfil e progresso.
 
-Currently, two official plugins are available:
+Projeto desenvolvido em equipe, aplicando o framework Scrum (sprints entre 27/03/2026 e 08/04/2026).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Paginas
 
-## React Compiler
+- Bem-vindo - introducao e onboarding
+- Quiz - perguntas para identificar o perfil do usuario
+- Lar (Home) - tela principal
+- Perfil - dados e progresso do usuario
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+- React + Vite
+- ESLint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como rodar localmente
+
+```bash
+npm install
+npm run dev      # servidor de desenvolvimento
+npm run build    # build de producao
+```
+
+## Estrutura do projeto
+
+- `src/pages/` - paginas do app (Bem-vindo, Quiz, Lar, Perfil)
+- `src/componentes/` - componentes reutilizaveis
+- `src/contexto/` - estado global compartilhado
+- `src/Perguntas.json` - banco de perguntas do quiz
+
+## Equipe
+
+Projeto em equipe da turma, com participacao de [Ktsu0](https://github.com/Ktsu0).
